@@ -1,0 +1,78 @@
+{
+  "slug": "oxbar",
+  "name": "Oxbar",
+  "title": "Oxbar Disposable Vapes",
+  "category": "disposable-vapes",
+  "order": 5,
+  "cardImage": "/images/brands/oxbar.webp",
+  "image": "/images/brands/oxbar.webp",
+  "price": 19.99,
+  "description": "Premium disposable device with smooth draw performance, consistent flavor delivery, and dependable in-store availability.",
+  "modelLabel": "Model",
+  "variantLabel": "Flavor",
+  "overview": {
+    "title": "Professional Overview",
+    "points": [
+      "Engineered for consistent flavor delivery from first puff to last.",
+      "Balanced airflow profile supports a smoother, more controlled draw.",
+      "Curated flavor lineup designed for repeatable day-to-day satisfaction.",
+      "Portable build quality makes it practical for regular use on the go.",
+      "Transparent in-store pricing helps customers compare confidently.",
+      "Real-time stock support is available through our store call line."
+    ]
+  },
+  "models": [
+    {
+      "name": "OXBAR 35K",
+      "variants": [
+        {
+          "name": "Blue Razz Lolly",
+          "price": 27.64,
+          "image": "/images/products/oxbar/oxbar-35kblue-razz-lolly.webp",
+          "inStock": true
+        },
+        {
+          "name": "Watermelon Savage Patch",
+          "price": 27.64,
+          "image": "/images/products/oxbar/oxbar-35k-watermelon-savage-patch.webp",
+          "inStock": true
+        },
+        {
+          "name": "Peach Ringz",
+          "price": 27.64,
+          "image": "/images/products/oxbar/oxbar-35kpeach-ringz.webp",
+          "inStock": true
+        },
+        {
+          "name": "Pink Strawberry Burst",
+          "price": 27.64,
+          "image": "/images/products/oxbar/oxbar-35k-pink-strawberry-burst.webp",
+          "inStock": true
+        },
+        {
+          "name": "Strawberry Watermelon Dragon Fruit",
+          "price": 27.64,
+          "image": "/images/products/oxbar/oxbar-35k-strawberry-watermelon-dragon-fruit.webp",
+          "inStock": true
+        },
+        {
+          "name": "Winter Mint",
+          "price": 27.64,
+          "image": "/images/products/oxbar/oxbar35kwinter-mint.webp",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "name": "OXBAR 30K",
+      "variants": [
+        {
+          "name": "Wap Drops",
+          "price": 27.64,
+          "image": "/images/products/oxbar/oxbar-30k-wap-drops.webp",
+          "inStock": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "slug": "vuse",
+  "name": "VUSE",
+  "title": "VUSE Pod System",
+  "category": "pod-systems",
+  "order": 21,
+  "cardImage": "/images/brands/vuse.webp",
+  "image": "/images/products/pod-systems/vuse-alto-device.webp",
+  "price": 24.99,
+  "description": "Reliable pod-system performance with balanced draw, clean flavor output, and practical everyday convenience.",
+  "modelLabel": null,
+  "variantLabel": "Option",
+  "overview": {
+    "title": "Product Overview",
+    "points": [
+      "Designed for smooth pod-based performance with predictable output.",
+      "Compatible options focus on balanced throat hit and flavor clarity.",
+      "Compact form factor supports discreet and convenient daily use.",
+      "Simple setup process helps minimize learning curve for new users.",
+      "Clear in-store pricing improves decision-making at purchase time.",
+      "Availability support is provided directly through our call line."
+    ]
+  },
+  "models": [
+    {
+      "name": "VUSE Pod System",
+      "variants": [
+        {
+          "name": "Vuse Alto Device",
+          "price": 27.64,
+          "image": "/images/products/pod-systems/vuse-alto-device.webp",
+          "inStock": true
+        },
+        {
+          "name": "Classic Tobacco 5.0% (4 Pods)",
+          "price": 27.64,
+          "image": null,
+          "inStock": true
+        },
+        {
+          "name": "Menthol 2.4% (4 Pods)",
+          "price": 27.64,
+          "image": null,
+          "inStock": true
+        },
+        {
+          "name": "Menthol 5.0% (2 Pods)",
+          "price": 19.13,
+          "image": null,
+          "inStock": true
+        },
+        {
+          "name": "Menthol 5.0% (4 Pods)",
+          "price": 27.64,
+          "image": null,
+          "inStock": true
+        },
+        {
+          "name": "Originals Rich Tobacco",
+          "price": 21.26,
+          "image": "/images/products/pod-systems/vuse-originals-rich-tobacco.webp",
+          "inStock": true
+        }
+      ]
+    }
+  ]
+}

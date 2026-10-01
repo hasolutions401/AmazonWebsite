@@ -1,0 +1,55 @@
+{
+  "slug": "sesh",
+  "name": "Sesh+",
+  "title": "Sesh+ Nicotine Pouches",
+  "category": "nicotine-pouches",
+  "order": 24,
+  "cardImage": "/images/brands/sesh.webp",
+  "image": "/images/brands/sesh.webp",
+  "price": 4.49,
+  "description": "Discreet nicotine format with clean usage, consistent strength options, and dependable in-store availability.",
+  "modelLabel": null,
+  "variantLabel": "Flavor",
+  "overview": {
+    "title": "Product Overview",
+    "points": [
+      "Smoke-free format offers a cleaner, more discreet daily routine.",
+      "Multiple strengths and flavor profiles support preference-based choice.",
+      "Portable cans are easy to carry and practical for regular use.",
+      "Consistent quality standards help maintain dependable experience.",
+      "Straightforward pricing keeps product selection simple in store.",
+      "Live availability updates are available through our call line."
+    ]
+  },
+  "models": [
+    {
+      "name": "Sesh+ Nicotine Pouches",
+      "variants": [
+        {
+          "name": "Sesh+ Cappuccino",
+          "price": 7.43,
+          "image": "/images/products/nicotine-pouches/sesh-cappuccino.webp",
+          "inStock": true
+        },
+        {
+          "name": "Sesh+ Clear",
+          "price": 7.43,
+          "image": "/images/products/nicotine-pouches/sesh-clear.webp",
+          "inStock": true
+        },
+        {
+          "name": "Sesh+ Wintergreen",
+          "price": 7.43,
+          "image": "/images/products/nicotine-pouches/sesh-wintergreen.webp",
+          "inStock": true
+        },
+        {
+          "name": "Sesh+ Mango",
+          "price": 7.43,
+          "image": "/images/products/nicotine-pouches/sesh-mango.webp",
+          "inStock": true
+        }
+      ]
+    }
+  ]
+}

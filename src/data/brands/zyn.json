@@ -1,0 +1,103 @@
+{
+  "slug": "zyn",
+  "name": "ZYN",
+  "title": "ZYN Nicotine Pouches",
+  "category": "nicotine-pouches",
+  "order": 23,
+  "cardImage": "/images/brands/zyn.webp",
+  "image": "/images/brands/zyn.webp",
+  "price": 4.99,
+  "description": "Discreet nicotine format with clean usage, consistent strength options, and dependable in-store availability.",
+  "modelLabel": null,
+  "variantLabel": "Flavor",
+  "overview": {
+    "title": "Product Overview",
+    "points": [
+      "Smoke-free format offers a cleaner, more discreet daily routine.",
+      "Multiple strengths and flavor profiles support preference-based choice.",
+      "Portable cans are easy to carry and practical for regular use.",
+      "Consistent quality standards help maintain dependable experience.",
+      "Straightforward pricing keeps product selection simple in store.",
+      "Live availability updates are available through our call line."
+    ]
+  },
+  "models": [
+    {
+      "name": "ZYN Nicotine Pouches",
+      "variants": [
+        {
+          "name": "ZYN Cool Mint",
+          "price": 7.43,
+          "image": "/images/products/nicotine-pouches/zyn-cool-mint.webp",
+          "inStock": true
+        },
+        {
+          "name": "ZYN Peppermint",
+          "price": 7.43,
+          "image": "/images/products/nicotine-pouches/zyn-peppermint.webp",
+          "inStock": true
+        },
+        {
+          "name": "ZYN Mojito",
+          "price": 7.43,
+          "image": "/images/products/nicotine-pouches/zyn-mojito.webp",
+          "inStock": true
+        },
+        {
+          "name": "ZYN Wintergreen",
+          "price": 7.43,
+          "image": "/images/products/nicotine-pouches/zyn-wintergreen.webp",
+          "inStock": true
+        },
+        {
+          "name": "ZYN Cinnamon",
+          "price": 7.43,
+          "image": "/images/products/nicotine-pouches/zyn-cinnamon.webp",
+          "inStock": true
+        },
+        {
+          "name": "ZYN Spearmint",
+          "price": 7.43,
+          "image": "/images/products/nicotine-pouches/zyn-spearmint.webp",
+          "inStock": true
+        },
+        {
+          "name": "ZYN Citrus",
+          "price": 7.43,
+          "image": "/images/products/nicotine-pouches/zyn-citrus.webp",
+          "inStock": true
+        },
+        {
+          "name": "ZYN Smooth",
+          "price": 7.43,
+          "image": "/images/products/nicotine-pouches/zyn-smooth.webp",
+          "inStock": true
+        },
+        {
+          "name": "ZYN Apple Mint Mini Dry",
+          "price": 7.43,
+          "image": "/images/products/nicotine-pouches/zyn-apple-mint-3mg.webp",
+          "inStock": true
+        },
+        {
+          "name": "ZYN Chill (3mg)",
+          "price": 7.43,
+          "image": "/images/products/nicotine-pouches/zyn-chill-3mg.webp",
+          "inStock": true
+        },
+        {
+          "name": "ZYN Spearmint Mini Dry",
+          "price": 7.43,
+          "image": "/images/products/nicotine-pouches/zyn-spearmint-mini-dry.webp",
+          "inStock": true
+        },
+        {
+          "name": "ZYN Cool Mint MAX",
+          "price": 9.56,
+          "image": "/images/products/nicotine-pouches/zyn-cool-mint-max.webp",
+          "inStock": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "slug": "other-disposable-vapes",
+  "name": "Other Disposables",
+  "title": "Other Disposable Vapes",
+  "category": "disposable-vapes",
+  "order": 19,
+  "cardImage": "/images/brands/other-disposable-vapes.webp",
+  "image": "/images/brands/other-disposable-vapes.webp",
+  "price": 17.99,
+  "description": "Premium disposable device with smooth draw performance, consistent flavor delivery, and dependable in-store availability.",
+  "modelLabel": "Brand",
+  "variantLabel": "Flavor",
+  "overview": {
+    "title": "Professional Overview",
+    "points": [
+      "Engineered for consistent flavor delivery from first puff to last.",
+      "Balanced airflow profile supports a smoother, more controlled draw.",
+      "Curated flavor lineup designed for repeatable day-to-day satisfaction.",
+      "Portable build quality makes it practical for regular use on the go.",
+      "Transparent in-store pricing helps customers compare confidently.",
+      "Real-time stock support is available through our store call line."
+    ]
+  },
+  "models": [
+    {
+      "name": "Lost Mary",
+      "variants": [
+        {
+          "name": "Forest Mint",
+          "price": 17.99,
+          "image": "/images/products/other-disposable-vapes/lost-mary-forest-mint.webp",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "name": "Friobar",
+      "variants": [
+        {
+          "name": "Orange Lime Ice",
+          "price": 17.99,
+          "image": "/images/products/other-disposable-vapes/friobar-orange-lime-ice-pod.webp",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "name": "Qurious",
+      "variants": [
+        {
+          "name": "Passion Fruit Orange Guava",
+          "price": 17.99,
+          "image": "/images/products/other-disposable-vapes/qurious-passion-fruit-orange-guava-disposable-vape.webp",
+          "inStock": true
+        },
+        {
+          "name": "Fuji Apple Peach Gummy",
+          "price": 17.99,
+          "image": "/images/products/other-disposable-vapes/fuji-apple-peach-gummy.webp",
+          "inStock": true
+        },
+        {
+          "name": "Strawberry Watermelon Lemon",
+          "price": 17.99,
+          "image": "/images/products/other-disposable-vapes/quirious-air-6000-disposable-strawberry-watermelon-lemon.webp",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "name": "Al Fakher",
+      "variants": [
+        {
+          "name": "Blue Razz Lemonade",
+          "price": 17.99,
+          "image": "/images/products/other-disposable-vapes/al-fakher-blue-berry-mint-vape.webp",
+          "inStock": true
+        },
+        {
+          "name": "Berry Mint",
+          "price": 17.99,
+          "image": "/images/products/other-disposable-vapes/berry-mint-al-fakher-vape-8000-pro.webp",
+          "inStock": true
+        },
+        {
+          "name": "Gum Flavour",
+          "price": 17.99,
+          "image": "/images/products/other-disposable-vapes/gum-flavour-al-fakher-vape-8000-pro.webp",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "name": "Crave",
+      "variants": [
+        {
+          "name": "Black Ice",
+          "price": 17.99,
+          "image": "/images/products/other-disposable-vapes/black-iceee.webp",
+          "inStock": true
+        },
+        {
+          "name": "Menthol",
+          "price": 17.99,
+          "image": "/images/products/other-disposable-vapes/crave-menthol-vape-4500-puffs.webp",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "name": "Clear",
+      "variants": [
+        {
+          "name": "Clear 2.8%",
+          "price": 14.99,
+          "image": "/images/products/other-disposable-vapes/c2.webp",
+          "inStock": true
+        },
+        {
+          "name": "Clear 5%",
+          "price": 14.99,
+          "image": "/images/products/other-disposable-vapes/c5.webp",
+          "inStock": true
+        }
+      ]
+    }
+  ]
+}

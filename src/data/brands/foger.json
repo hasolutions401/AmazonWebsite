@@ -1,0 +1,119 @@
+{
+  "slug": "foger",
+  "name": "Foger",
+  "title": "Foger Disposable Vapes",
+  "category": "disposable-vapes",
+  "order": 2,
+  "cardImage": "/images/brands/foger.webp",
+  "image": "/images/brands/foger.webp",
+  "price": 17.99,
+  "description": "Premium disposable device with smooth draw performance, consistent flavor delivery, and dependable in-store availability.",
+  "modelLabel": "Model",
+  "variantLabel": "Flavor",
+  "overview": {
+    "title": "Professional Overview",
+    "points": [
+      "Engineered for consistent flavor delivery from first puff to last.",
+      "Balanced airflow profile supports a smoother, more controlled draw.",
+      "Curated flavor lineup designed for repeatable day-to-day satisfaction.",
+      "Portable build quality makes it practical for regular use on the go.",
+      "Transparent in-store pricing helps customers compare confidently.",
+      "Real-time stock support is available through our store call line."
+    ]
+  },
+  "models": [
+    {
+      "name": "Foger Pod Only (30K)",
+      "variants": [
+        {
+          "name": "Strawberry Kiwi",
+          "price": 29.77,
+          "image": "/images/products/foger/st-kiwi.webp",
+          "inStock": true
+        },
+        {
+          "name": "Dragon Fruit Lemonade",
+          "price": 29.77,
+          "image": "/images/products/foger/dragon-fruit-lemonade.webp",
+          "inStock": true
+        },
+        {
+          "name": "Mexico Mango",
+          "price": 29.77,
+          "image": "/images/products/foger/mexico-mango.webp",
+          "inStock": true
+        },
+        {
+          "name": "Blue Razz Ice",
+          "price": 29.77,
+          "image": "/images/products/foger/blue-razz-ice.webp",
+          "inStock": true
+        },
+        {
+          "name": "Cool Mint",
+          "price": 29.77,
+          "image": "/images/products/foger/cool-mint.webp",
+          "inStock": true
+        },
+        {
+          "name": "Strawberry B-Pop",
+          "price": 29.77,
+          "image": "/images/products/foger/st-b-pop.webp",
+          "inStock": true
+        },
+        {
+          "name": "White Gummy",
+          "price": 29.77,
+          "image": "/images/products/foger/white-gummy.webp",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "name": "Foger 35K Boost",
+      "variants": [
+        {
+          "name": "Miami Mint",
+          "price": 29.77,
+          "image": "/images/products/foger/miami-mint-foger-kit-35k.webp",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "name": "Foger Switch Pro Kit",
+      "variants": [
+        {
+          "name": "Gummy Bear",
+          "price": 29.77,
+          "image": "/images/products/foger/gummy-bear-foger-switch-pro-kit.webp",
+          "inStock": true
+        },
+        {
+          "name": "Strawberry Watermelon",
+          "price": 29.77,
+          "image": "/images/products/foger/st-watermelon-pro-kit.webp",
+          "inStock": true
+        },
+        {
+          "name": "Strawberry Ice",
+          "price": 29.77,
+          "image": "/images/products/foger/st-ice-pro-kit.webp",
+          "inStock": true
+        },
+        {
+          "name": "Kiwi Dragon Berry",
+          "price": 29.77,
+          "image": "/images/products/foger/foger-kiwi-dragon-berry-switch-pro-kit.webp",
+          "inStock": true
+        },
+        {
+          "name": "Strawberry B-Pop",
+          "price": 29.77,
+          "image": "/images/products/foger/foger-switch-pro-30k-disposable-kit-strawberry-b-pop.webp",
+          "inStock": true
+        }
+      ]
+    }
+  ]
+}

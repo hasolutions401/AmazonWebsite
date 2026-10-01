@@ -1,0 +1,49 @@
+{
+  "slug": "off-stamp",
+  "name": "Off Stamp",
+  "title": "Off Stamp Disposable Vapes",
+  "category": "disposable-vapes",
+  "order": 18,
+  "cardImage": "/images/brands/off-stamp.webp",
+  "image": "/images/brands/off-stamp.webp",
+  "price": 17.99,
+  "description": "Premium disposable device with smooth draw performance, consistent flavor delivery, and dependable in-store availability.",
+  "modelLabel": "Model",
+  "variantLabel": "Flavor",
+  "overview": {
+    "title": "Professional Overview",
+    "points": [
+      "Engineered for consistent flavor delivery from first puff to last.",
+      "Balanced airflow profile supports a smoother, more controlled draw.",
+      "Curated flavor lineup designed for repeatable day-to-day satisfaction.",
+      "Portable build quality makes it practical for regular use on the go.",
+      "Transparent in-store pricing helps customers compare confidently.",
+      "Real-time stock support is available through our store call line."
+    ]
+  },
+  "models": [
+    {
+      "name": "Off Stamp",
+      "variants": [
+        {
+          "name": "California Cherry",
+          "price": 14.88,
+          "image": "/images/products/off-stamp/california-cherry-offstamp-kit-600x600-0afdc46b-516c-4314-8c18-d4a6b394869a.webp",
+          "inStock": true
+        },
+        {
+          "name": "Juicy Peach",
+          "price": 14.88,
+          "image": "/images/products/off-stamp/juicy-peach.webp",
+          "inStock": true
+        },
+        {
+          "name": "Cherry Strazz",
+          "price": 14.88,
+          "image": "/images/products/off-stamp/off-stamp-disposable-cherry-strazz.webp",
+          "inStock": true
+        }
+      ]
+    }
+  ]
+}

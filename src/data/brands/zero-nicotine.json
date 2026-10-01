@@ -1,0 +1,65 @@
+{
+  "slug": "zero-nicotine",
+  "name": "Zero Nicotine",
+  "title": "Zero Nicotine Disposable Vapes",
+  "category": "disposable-vapes",
+  "order": 16,
+  "cardImage": "/images/brands/zero-nicotine.webp",
+  "image": "/images/brands/zero-nicotine.webp",
+  "price": 14.99,
+  "description": "Premium disposable device with smooth draw performance, consistent flavor delivery, and dependable in-store availability.",
+  "modelLabel": "Model",
+  "variantLabel": "Flavor",
+  "overview": {
+    "title": "Professional Overview",
+    "points": [
+      "Engineered for consistent flavor delivery from first puff to last.",
+      "Balanced airflow profile supports a smoother, more controlled draw.",
+      "Curated flavor lineup designed for repeatable day-to-day satisfaction.",
+      "Portable build quality makes it practical for regular use on the go.",
+      "Transparent in-store pricing helps customers compare confidently.",
+      "Real-time stock support is available through our store call line."
+    ]
+  },
+  "models": [
+    {
+      "name": "Juicy Bar",
+      "variants": [
+        {
+          "name": "Cool Mint (0% Nicotine)",
+          "price": 14.99,
+          "image": "/images/products/zero-nicotine/juicy-bar-jb7500pro-cool-mint.webp",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "name": "Space Ultra",
+      "variants": [
+        {
+          "name": "Clear 0% (4500 Puffs)",
+          "price": 14.99,
+          "image": "/images/products/zero-nicotine/zero-nicotine-space-ultra.webp",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "name": "Flair Plus",
+      "variants": [
+        {
+          "name": "Ice Watermelon (0%)",
+          "price": 14.99,
+          "image": "/images/products/zero-nicotine/flair-plus-disposable-device-zero-nicotine-ice-water-melon.webp",
+          "inStock": true
+        },
+        {
+          "name": "Strawberry Banana (0%)",
+          "price": 14.99,
+          "image": null,
+          "inStock": true
+        }
+      ]
+    }
+  ]
+}

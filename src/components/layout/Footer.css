@@ -1,0 +1,168 @@
+.footer {
+  margin-top: var(--section-y);
+  padding-top: clamp(56px, 7vw, 90px);
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  background: linear-gradient(180deg, rgba(5, 11, 24, 0.6), #060c19);
+}
+
+.footer__grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr;
+  gap: clamp(32px, 5vw, 80px);
+}
+
+.footer__logo {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.footer__logo span {
+  color: var(--primary);
+}
+
+.footer__brand p {
+  max-width: 340px;
+  margin-top: 14px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.footer__rating {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 18px;
+  padding: 8px 14px;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--line-blue);
+  background: rgba(14, 165, 255, 0.06);
+  font-size: 13px;
+  color: var(--text-2);
+}
+
+.footer__install {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 12px;
+  padding: 8px 14px;
+  border-radius: var(--radius-pill);
+  border: 1px solid rgba(56, 189, 248, 0.45);
+  color: var(--sky-soft);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.footer__install:hover {
+  background: rgba(14, 165, 255, 0.12);
+}
+
+.footer__install-tip {
+  margin-top: 10px;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.footer__install-tip svg {
+  display: inline;
+  vertical-align: -2px;
+}
+
+.footer__stars {
+  color: var(--gold);
+  letter-spacing: 2px;
+}
+
+.footer__title {
+  margin-bottom: 18px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--text-2);
+}
+
+.footer__links {
+  display: grid;
+  gap: 10px;
+}
+
+.footer__links a,
+.footer__contact a {
+  color: var(--muted);
+  font-size: 14px;
+  transition: color 0.2s ease;
+}
+
+.footer__links a:hover,
+.footer__contact a:hover {
+  color: var(--primary);
+}
+
+.footer__contact {
+  display: grid;
+  gap: 14px;
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.footer__contact li {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.footer__contact svg {
+  margin-top: 4px;
+  color: var(--sky);
+  flex-shrink: 0;
+}
+
+.footer__legal {
+  margin-top: 48px;
+  padding-top: 24px;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  font-size: 12px;
+  color: var(--faint);
+  display: grid;
+  gap: 6px;
+}
+
+.footer__warning {
+  font-weight: 600;
+  color: var(--text-2);
+}
+
+.footer__bottom {
+  margin-top: 24px;
+  padding: 20px var(--gutter) calc(20px + env(safe-area-inset-bottom));
+  text-align: center;
+  font-size: 13px;
+  color: var(--faint);
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+@media (max-width: 860px) {
+  .footer__grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .footer__brand {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 760px) {
+  /* leave room for the floating call button / buy bar */
+  .footer__bottom {
+    padding-bottom: calc(88px + env(safe-area-inset-bottom));
+  }
+}
+
+@media (max-width: 520px) {
+  .footer__grid {
+    grid-template-columns: 1fr;
+  }
+}

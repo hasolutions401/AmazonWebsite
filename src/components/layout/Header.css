@@ -1,0 +1,475 @@
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: rgba(11, 17, 32, 0.72);
+  backdrop-filter: blur(14px) saturate(140%);
+  -webkit-backdrop-filter: blur(14px) saturate(140%);
+  border-bottom: 1px solid transparent;
+  transition:
+    background-color 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.site-header.is-scrolled {
+  background: rgba(11, 17, 32, 0.92);
+  border-bottom-color: rgba(255, 255, 255, 0.06);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+.site-header__inner {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  height: var(--header-h);
+  max-width: 1400px;
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+
+.site-header__logo {
+  flex-shrink: 0;
+}
+
+.site-header__logo img {
+  height: 40px;
+  width: auto;
+  filter: drop-shadow(0 0 10px rgba(0, 191, 255, 0.7)) drop-shadow(0 0 24px rgba(0, 119, 255, 0.45));
+  transition: transform 0.3s var(--ease);
+}
+
+.site-header__logo:hover img {
+  transform: scale(1.04);
+}
+
+.site-header__actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: auto;
+}
+
+.site-header__call {
+  min-height: 42px;
+  padding: 8px 18px;
+  font-size: 14px;
+}
+
+.site-header__call-short {
+  display: none;
+}
+
+.icon-btn {
+  display: inline-grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  color: var(--text);
+  transition: background-color 0.2s ease;
+}
+
+.icon-btn:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.site-header__burger {
+  display: none;
+}
+
+.site-header__bag {
+  position: relative;
+}
+
+.site-header__badge {
+  position: absolute;
+  top: 4px;
+  right: 2px;
+  min-width: 18px;
+  height: 18px;
+  padding: 0 5px;
+  border-radius: var(--radius-pill);
+  background: var(--primary);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: center;
+  box-shadow: 0 0 0 2px var(--bg), 0 0 12px rgba(14, 165, 255, 0.7);
+  animation: badge-pop 0.3s var(--ease);
+}
+
+@keyframes badge-pop {
+  from {
+    transform: scale(0.4);
+  }
+}
+
+/* ---------- Desktop nav ---------- */
+.desk-nav {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.desk-nav__list {
+  display: flex;
+  align-items: center;
+  gap: clamp(4px, 1vw, 14px);
+}
+
+.desk-nav__item {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.desk-nav__link {
+  position: relative;
+  display: inline-block;
+  padding: 8px 6px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: #e5e7eb;
+  white-space: nowrap;
+  transition: color 0.2s ease;
+}
+
+.desk-nav__link::after {
+  content: '';
+  position: absolute;
+  left: 6px;
+  right: 6px;
+  bottom: 2px;
+  height: 2px;
+  border-radius: 2px;
+  background: var(--primary);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s var(--ease);
+}
+
+.desk-nav__link:hover,
+.desk-nav__link.active {
+  color: #fff;
+}
+
+.desk-nav__link:hover::after,
+.desk-nav__link.active::after {
+  transform: scaleX(1);
+}
+
+.desk-nav__link.active {
+  text-shadow: 0 0 12px rgba(14, 165, 255, 0.4);
+}
+
+.desk-nav__toggle {
+  display: inline-grid;
+  place-items: center;
+  width: 22px;
+  height: 28px;
+  color: var(--muted);
+  border-radius: 6px;
+  transition:
+    transform 0.25s ease,
+    color 0.2s ease;
+}
+
+.desk-nav__item.is-open .desk-nav__toggle {
+  transform: rotate(180deg);
+  color: var(--sky);
+}
+
+.desk-menu {
+  position: absolute;
+  top: 100%;
+  left: -12px;
+  min-width: 230px;
+  padding: 10px;
+  margin-top: 8px;
+  border-radius: var(--radius);
+  background: rgba(10, 17, 32, 0.98);
+  border: 1px solid var(--line-blue);
+  box-shadow: 0 24px 50px rgba(0, 0, 0, 0.5), 0 0 30px rgba(14, 165, 255, 0.12);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(8px);
+  transition:
+    opacity 0.2s ease,
+    transform 0.2s ease,
+    visibility 0.2s;
+}
+
+/* Hover bridge so the menu doesn't close while moving the pointer down */
+.desk-menu::before {
+  content: '';
+  position: absolute;
+  inset: -12px 0 auto;
+  height: 12px;
+}
+
+.desk-nav__item.is-open .desk-menu,
+.desk-nav__item:focus-within .desk-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.desk-menu--wide {
+  width: min(560px, 80vw);
+}
+
+.desk-menu--wide .desk-menu__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.desk-menu__all {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 12px;
+  margin-bottom: 6px;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--sky-soft);
+  background: rgba(14, 165, 255, 0.08);
+  border: 1px solid rgba(56, 189, 248, 0.2);
+}
+
+.desk-menu__all:hover {
+  background: rgba(14, 165, 255, 0.16);
+}
+
+.desk-menu__link {
+  display: block;
+  padding: 9px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #e5e7eb;
+  white-space: nowrap;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    padding 0.2s ease;
+}
+
+.desk-menu__link:hover,
+.desk-menu__link.active {
+  background: rgba(14, 165, 255, 0.12);
+  color: var(--primary);
+  padding-left: 16px;
+}
+
+/* ---------- Drawer (mobile/tablet) ---------- */
+.drawer {
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+  overflow: hidden; /* the off-screen panel must not widen the page */
+  overflow: clip; /* and focus inside can't scroll it sideways */
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.drawer.is-open {
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.drawer__backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(2, 6, 16, 0.65);
+  backdrop-filter: blur(3px);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.drawer.is-open .drawer__backdrop {
+  opacity: 1;
+}
+
+.drawer__panel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  width: min(360px, 88vw);
+  background: linear-gradient(180deg, #0c1426, #08101f);
+  border-left: 1px solid var(--line-blue);
+  box-shadow: -20px 0 60px rgba(0, 0, 0, 0.5);
+  transform: translateX(100%);
+  transition: transform 0.35s var(--ease), visibility 0.35s;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+.drawer.is-open .drawer__panel {
+  transform: translateX(0);
+}
+
+.drawer__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 14px 14px 20px;
+  border-bottom: 1px solid var(--line);
+}
+
+.drawer__head img {
+  height: 32px;
+  width: auto;
+}
+
+.drawer__nav {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 12px;
+}
+
+.drawer__link {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  min-height: 48px;
+  padding: 0 10px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 15px;
+  color: #e5e7eb;
+}
+
+.drawer__link.active {
+  color: var(--primary);
+  background: rgba(14, 165, 255, 0.08);
+}
+
+.drawer__group-head {
+  display: flex;
+  align-items: center;
+}
+
+.drawer__group .icon-btn svg {
+  transition: transform 0.25s ease;
+}
+
+.drawer__group.is-expanded .icon-btn svg {
+  transform: rotate(180deg);
+}
+
+.drawer__sub {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.3s var(--ease);
+}
+
+.drawer__group.is-expanded .drawer__sub {
+  grid-template-rows: 1fr;
+}
+
+.drawer__sub-inner {
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2px 6px;
+  margin-left: 10px;
+  padding-left: 10px;
+  border-left: 1px solid rgba(56, 189, 248, 0.25);
+}
+
+.drawer__group.is-expanded .drawer__sub-inner {
+  padding-block: 4px 10px;
+}
+
+.drawer__sublink {
+  display: flex;
+  align-items: center;
+  min-height: 40px;
+  padding: 0 10px;
+  border-radius: 8px;
+  font-size: 14px;
+  color: var(--text-2);
+}
+
+.drawer__sublink.active {
+  color: var(--primary);
+  background: rgba(14, 165, 255, 0.1);
+}
+
+.drawer__contact {
+  margin-top: auto;
+  padding: 18px 20px 24px;
+  border-top: 1px solid var(--line);
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.drawer__contact p {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.drawer__contact svg {
+  margin-top: 3px;
+  color: var(--sky);
+  flex-shrink: 0;
+}
+
+.drawer__actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.drawer__actions .btn {
+  padding-inline: 12px;
+  font-size: 14px;
+}
+
+/* ---------- Breakpoints ---------- */
+@media (max-width: 1440px) {
+  .site-header__call-text {
+    display: none;
+  }
+
+  .site-header__call-short {
+    display: inline;
+  }
+}
+
+@media (max-width: 1100px) {
+  .desk-nav {
+    display: none;
+  }
+
+  .site-header__burger {
+    display: inline-grid;
+  }
+}
+
+/* Phones: the floating "Call Now" button / product buy bar handle calling */
+@media (max-width: 760px) {
+  .site-header__call {
+    display: none;
+  }
+
+  .site-header__actions {
+    gap: 0;
+  }
+}
+
+@media (max-width: 420px) {
+  .site-header__logo img {
+    height: 34px;
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "slug": "viho",
+  "name": "Viho",
+  "title": "Viho Disposable Vapes",
+  "category": "disposable-vapes",
+  "order": 10,
+  "cardImage": "/images/brands/viho.webp",
+  "image": "/images/brands/viho.webp",
+  "price": 17.99,
+  "description": "Premium disposable device with smooth draw performance, consistent flavor delivery, and dependable in-store availability.",
+  "modelLabel": "Model",
+  "variantLabel": "Flavor",
+  "overview": {
+    "title": "Professional Overview",
+    "points": [
+      "Engineered for consistent flavor delivery from first puff to last.",
+      "Balanced airflow profile supports a smoother, more controlled draw.",
+      "Curated flavor lineup designed for repeatable day-to-day satisfaction.",
+      "Portable build quality makes it practical for regular use on the go.",
+      "Transparent in-store pricing helps customers compare confidently.",
+      "Real-time stock support is available through our store call line."
+    ]
+  },
+  "models": [
+    {
+      "name": "Viho TRX 50k",
+      "variants": [
+        {
+          "name": "Banana Taffy Ice",
+          "price": 30.83,
+          "image": "/images/products/viho/banana-taffy-ice-53505c73-155b-489b-b023-369164bb2bc8-600x600-crop-center.webp",
+          "inStock": true
+        },
+        {
+          "name": "Blue Razz Ice",
+          "price": 30.83,
+          "image": "/images/products/viho/blue-razz-ice.webp",
+          "inStock": true
+        },
+        {
+          "name": "Grape Ice",
+          "price": 30.83,
+          "image": "/images/products/viho/grape-ice-757d30ba-4a4a-47f7-b525-85de2e5b6efa-800x800.webp",
+          "inStock": true
+        },
+        {
+          "name": "Miami Mint",
+          "price": 30.83,
+          "image": "/images/products/viho/miami-mint.webp",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "name": "Viho Supercharge",
+      "variants": [
+        {
+          "name": "Frozen Nana",
+          "price": 30.83,
+          "image": "/images/products/viho/viho-supercharge-pro-20k-frozen-nana-box.webp",
+          "inStock": true
+        },
+        {
+          "name": "Orange Splash",
+          "price": 30.83,
+          "image": "/images/products/viho/viho-orange-splash-supercharge-vape-20000-puffs.webp",
+          "inStock": true
+        },
+        {
+          "name": "Virginia Tobacco",
+          "price": 30.83,
+          "image": "/images/products/viho/virginia-tobacco-viho-supercharge-disposable-vape-20000-puff.webp",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "name": "Viho Turbo",
+      "variants": [
+        {
+          "name": "Banana Ice (Gimi 30k)",
+          "price": 30.83,
+          "image": "/images/products/viho/viho-turbo-banana-ice-gimi-30k.webp",
+          "inStock": true
+        },
+        {
+          "name": "Banana Icy",
+          "price": 30.83,
+          "image": "/images/products/viho/viho-turbo-banana-icy.webp",
+          "inStock": true
+        },
+        {
+          "name": "California Cherry (Gimi 30k)",
+          "price": 30.83,
+          "image": "/images/products/viho/viho-turbo-california-cheery-gimi-30k.webp",
+          "inStock": true
+        },
+        {
+          "name": "Strawberry Cheesecake",
+          "price": 30.83,
+          "image": "/images/products/viho/viho-turbo-strawberry-cheesecake.webp",
+          "inStock": true
+        },
+        {
+          "name": "Tobacco (Gimi 30k)",
+          "price": 30.83,
+          "image": "/images/products/viho/viho-turbo-tobacco-gimi-30k.webp",
+          "inStock": true
+        },
+        {
+          "name": "Tropical Melon",
+          "price": 30.83,
+          "image": "/images/products/viho/viho-turbo-tropical-melon.webp",
+          "inStock": true
+        }
+      ]
+    }
+  ]
+}

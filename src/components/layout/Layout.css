@@ -1,0 +1,43 @@
+#main:focus {
+  outline: none;
+}
+
+.call-fab {
+  position: fixed;
+  right: max(16px, env(safe-area-inset-right));
+  bottom: max(16px, env(safe-area-inset-bottom));
+  z-index: 900;
+  display: none;
+  align-items: center;
+  gap: 8px;
+  padding: 13px 20px;
+  border-radius: var(--radius-pill);
+  background: var(--gradient-btn);
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+  box-shadow: 0 10px 30px rgba(14, 165, 255, 0.5);
+  animation: fab-pulse 2.8s ease-in-out infinite;
+}
+
+/* The header already has a call button on wide screens */
+@media (max-width: 760px) {
+  .call-fab {
+    display: inline-flex;
+  }
+
+  /* Product pages show their own sticky buy bar instead */
+  body.has-buybar .call-fab {
+    display: none;
+  }
+}
+
+@keyframes fab-pulse {
+  0%,
+  100% {
+    box-shadow: 0 10px 30px rgba(14, 165, 255, 0.5), 0 0 0 0 rgba(14, 165, 255, 0.45);
+  }
+  50% {
+    box-shadow: 0 10px 30px rgba(14, 165, 255, 0.5), 0 0 0 12px rgba(14, 165, 255, 0);
+  }
+}

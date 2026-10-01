@@ -1,0 +1,90 @@
+{
+  "slug": "glamee",
+  "name": "Glamee",
+  "title": "Glamee Disposable Vapes",
+  "category": "disposable-vapes",
+  "order": 17,
+  "cardImage": "/images/brands/glamee.webp",
+  "image": "/images/brands/glamee.webp",
+  "price": 17.99,
+  "description": "Premium disposable device with smooth draw performance, consistent flavor delivery, and dependable in-store availability.",
+  "modelLabel": "Model",
+  "variantLabel": "Flavor",
+  "overview": {
+    "title": "Professional Overview",
+    "points": [
+      "Engineered for consistent flavor delivery from first puff to last.",
+      "Balanced airflow profile supports a smoother, more controlled draw.",
+      "Curated flavor lineup designed for repeatable day-to-day satisfaction.",
+      "Portable build quality makes it practical for regular use on the go.",
+      "Transparent in-store pricing helps customers compare confidently.",
+      "Real-time stock support is available through our store call line."
+    ]
+  },
+  "models": [
+    {
+      "name": "Glamee Nova 4000",
+      "variants": [
+        {
+          "name": "Watermelon Chew",
+          "price": 17.01,
+          "image": "/images/products/glamee/glamee-nova-watermelon-chew.webp",
+          "inStock": true
+        },
+        {
+          "name": "Melon Ice",
+          "price": 17.01,
+          "image": "/images/products/glamee/glamee-nova-melon-ice.webp",
+          "inStock": true
+        },
+        {
+          "name": "Raspberry Peach",
+          "price": 17.01,
+          "image": "/images/products/glamee/glamee-nova-rasberry-peach.webp",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "name": "Glamee Flow 4500",
+      "variants": [
+        {
+          "name": "Blueberry Blackcurrant",
+          "price": 17.01,
+          "image": "/images/products/glamee/glamee-flow-blueberry-black-currant.webp",
+          "inStock": true
+        },
+        {
+          "name": "Mixed Oranges",
+          "price": 17.01,
+          "image": "/images/products/glamee/glamee-flow-mixed-oranges.webp",
+          "inStock": true
+        },
+        {
+          "name": "Cotton Ice",
+          "price": 17.01,
+          "image": "/images/products/glamee/glamee-flow-cotton-ice.webp",
+          "inStock": true
+        },
+        {
+          "name": "Peach Ice",
+          "price": 17.01,
+          "image": "/images/products/glamee/glamee-nova-peach-ice.webp",
+          "inStock": true
+        },
+        {
+          "name": "Peach Mango Watermelon",
+          "price": 17.01,
+          "image": "/images/products/glamee/glamee-nova-peach-mango-water-melon.webp",
+          "inStock": true
+        },
+        {
+          "name": "Mango Mojito",
+          "price": 17.01,
+          "image": "/images/products/glamee/glamee-nova-mango-mojito.webp",
+          "inStock": true
+        }
+      ]
+    }
+  ]
+}
