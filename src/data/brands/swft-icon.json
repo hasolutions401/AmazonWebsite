@@ -1,0 +1,49 @@
+{
+  "slug": "swft-icon",
+  "name": "SWFT iCON",
+  "title": "SWFT iCON Disposable Vapes",
+  "category": "disposable-vapes",
+  "order": 15,
+  "cardImage": "/images/brands/swft-icon.webp",
+  "image": "/images/brands/swft-icon.webp",
+  "price": 15.99,
+  "description": "Premium disposable device with smooth draw performance, consistent flavor delivery, and dependable in-store availability.",
+  "modelLabel": "Model",
+  "variantLabel": "Flavor",
+  "overview": {
+    "title": "Professional Overview",
+    "points": [
+      "Engineered for consistent flavor delivery from first puff to last.",
+      "Balanced airflow profile supports a smoother, more controlled draw.",
+      "Curated flavor lineup designed for repeatable day-to-day satisfaction.",
+      "Portable build quality makes it practical for regular use on the go.",
+      "Transparent in-store pricing helps customers compare confidently.",
+      "Real-time stock support is available through our store call line."
+    ]
+  },
+  "models": [
+    {
+      "name": "Swift ICON 7500",
+      "variants": [
+        {
+          "name": "Tropical Blend",
+          "price": 14.88,
+          "image": "/images/products/swft-icon/swift-icon-7500-puffs-tropical-blend.webp",
+          "inStock": true
+        },
+        {
+          "name": "White Gyummy",
+          "price": 14.88,
+          "image": "/images/products/swft-icon/swft-icon-7500-puffs-disposable-device-white-gummy-1.webp",
+          "inStock": true
+        },
+        {
+          "name": "Lemon Mist Ice",
+          "price": 14.88,
+          "image": "/images/products/swft-icon/swft-icon-7500-lemon-mist-ice.webp",
+          "inStock": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,349 @@
+.pickup {
+  position: fixed;
+  inset: 0;
+  z-index: 2200;
+  overflow: hidden;
+  overflow: clip; /* not scrollable, so focusing inside can't shift the panel */
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.pickup.is-open {
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.pickup__backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(2, 6, 16, 0.65);
+  backdrop-filter: blur(3px);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.pickup.is-open .pickup__backdrop {
+  opacity: 1;
+}
+
+.pickup__panel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  width: min(440px, 100vw);
+  background: linear-gradient(180deg, #0c1426, #08101f);
+  border-left: 1px solid var(--line-blue);
+  box-shadow: -20px 0 60px rgba(0, 0, 0, 0.5);
+  transform: translateX(100%);
+  transition: transform 0.35s var(--ease);
+}
+
+.pickup.is-open .pickup__panel {
+  transform: translateX(0);
+}
+
+.pickup__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: max(12px, env(safe-area-inset-top)) 12px 12px 20px;
+  border-bottom: 1px solid var(--line);
+}
+
+.pickup__head h2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.15rem;
+}
+
+.pickup__head h2 svg {
+  color: var(--sky);
+}
+
+.pickup__head h2 span {
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.pickup__empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin: auto;
+  padding: 32px 28px;
+  text-align: center;
+}
+
+.pickup__empty svg {
+  color: var(--sky);
+  opacity: 0.6;
+  margin-bottom: 6px;
+}
+
+.pickup__empty .btn {
+  margin-top: 16px;
+}
+
+.pickup__muted {
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.pickup__items {
+  flex: 1;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 8px 16px;
+}
+
+.pickup__item {
+  display: flex;
+  gap: 12px;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.pickup__thumb {
+  flex-shrink: 0;
+  width: 64px;
+  height: 64px;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #0c1629;
+  border: 1px solid var(--line-blue);
+}
+
+.pickup__thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.pickup__info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 0;
+  line-height: 1.3;
+}
+
+.pickup__info strong {
+  font-size: 15px;
+}
+
+.pickup__info small {
+  font-size: 12.5px;
+  color: var(--muted);
+}
+
+.pickup__info small.pickup__out {
+  color: var(--danger);
+}
+
+.pickup__qty {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  margin-top: 8px;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--line-blue);
+}
+
+.pickup__qty button {
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 32px;
+  color: var(--sky-soft);
+}
+
+.pickup__qty span {
+  min-width: 24px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.pickup__price {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.pickup__price b {
+  font-size: 15px;
+}
+
+.pickup__price button {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  color: var(--faint);
+}
+
+.pickup__price button:hover {
+  color: var(--danger);
+  background: rgba(248, 113, 113, 0.1);
+}
+
+.pickup__footer {
+  padding: 16px 20px max(18px, env(safe-area-inset-bottom));
+  border-top: 1px solid var(--line-blue);
+  background: rgba(5, 10, 22, 0.7);
+}
+
+.pickup__total {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-weight: 600;
+}
+
+.pickup__total b {
+  font-size: 1.35rem;
+  color: var(--sky-soft);
+}
+
+.pickup__form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.pickup__form label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.pickup__note {
+  grid-column: 1 / -1;
+}
+
+.pickup__form label {
+  min-width: 0;
+}
+
+.pickup__form input,
+.pickup__form select {
+  width: 100%;
+  min-width: 0;
+  min-height: 42px;
+  padding: 8px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--line-blue);
+  background: rgba(10, 18, 34, 0.9);
+  color: var(--text);
+  font: inherit;
+  font-size: 15px;
+}
+
+.pickup__form input:focus,
+.pickup__form select:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(14, 165, 255, 0.2);
+}
+
+.pickup__actions {
+  display: grid;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.pickup__secondary {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.pickup__secondary .btn {
+  padding-inline: 10px;
+}
+
+.pickup__clear {
+  display: block;
+  margin: 12px auto 0;
+  font-size: 13px;
+  color: var(--faint);
+  text-decoration: underline;
+}
+
+.pickup__clear:hover {
+  color: var(--danger);
+}
+
+/* ---------- Toast ---------- */
+.pickup-toast {
+  position: fixed;
+  left: 50%;
+  bottom: max(20px, env(safe-area-inset-bottom));
+  z-index: 2100;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: max-content;
+  max-width: calc(100vw - 24px);
+  padding: 10px 10px 10px 16px;
+  border-radius: var(--radius-pill);
+  background: #0f1d36;
+  border: 1px solid rgba(34, 197, 94, 0.45);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+  transform: translateX(-50%);
+  animation: toast-in 0.3s var(--ease);
+}
+
+.pickup-toast > svg {
+  color: #4ade80;
+  flex-shrink: 0;
+}
+
+.pickup-toast span {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.pickup-toast button:not(.pickup-toast__x) {
+  flex-shrink: 0;
+  padding: 6px 12px;
+  border-radius: var(--radius-pill);
+  background: rgba(14, 165, 255, 0.18);
+  color: var(--sky-soft);
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.pickup-toast__x {
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  color: var(--muted);
+}
+
+/* Sit above the product page buy bar on phones */
+@media (max-width: 760px) {
+  body.has-buybar .pickup-toast {
+    bottom: calc(80px + env(safe-area-inset-bottom));
+  }
+}
+
+@keyframes toast-in {
+  from {
+    opacity: 0;
+    transform: translate(-50%, 12px);
+  }
+}

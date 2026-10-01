@@ -1,0 +1,43 @@
+{
+  "slug": "skoal",
+  "name": "Skoal",
+  "title": "Skoal Smokeless Tobacco",
+  "category": "nicotine-pouches",
+  "order": 25,
+  "cardImage": "/images/brands/skoal.webp",
+  "image": "/images/brands/skoal.webp",
+  "price": 6.99,
+  "description": "Discreet nicotine format with clean usage, consistent strength options, and dependable in-store availability.",
+  "modelLabel": null,
+  "variantLabel": "Flavor",
+  "overview": {
+    "title": "Product Overview",
+    "points": [
+      "Smoke-free format offers a cleaner, more discreet daily routine.",
+      "Multiple strengths and flavor profiles support preference-based choice.",
+      "Portable cans are easy to carry and practical for regular use.",
+      "Consistent quality standards help maintain dependable experience.",
+      "Straightforward pricing keeps product selection simple in store.",
+      "Live availability updates are available through our call line."
+    ]
+  },
+  "models": [
+    {
+      "name": "Skoal Smokeless Tobacco",
+      "variants": [
+        {
+          "name": "Skoal Classic Wintergreen Long Cut",
+          "price": 8.5,
+          "image": "/images/products/nicotine-pouches/skoal-classic-wintergreen.webp",
+          "inStock": true
+        },
+        {
+          "name": "Skoal Classic Mint Long Cut",
+          "price": 8.5,
+          "image": "/images/products/nicotine-pouches/skoal-classic-mint.webp",
+          "inStock": true
+        }
+      ]
+    }
+  ]
+}

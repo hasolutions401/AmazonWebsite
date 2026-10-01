@@ -1,0 +1,329 @@
+{
+  "slug": "cigarettes",
+  "name": "Cigarettes",
+  "title": "Cigarettes",
+  "category": "cigarettes",
+  "order": 26,
+  "cardImage": "/images/brands/cigarettes.webp",
+  "image": "/images/brands/cigarettes.webp",
+  "price": 9.99,
+  "description": "Explore trusted cigarette brands with transparent pricing, consistent quality, and dependable in-store availability.",
+  "modelLabel": "Brand",
+  "variantLabel": "Variant",
+  "overview": {
+    "title": "Why Customers Choose This Collection",
+    "points": [
+      "Curated brand selection includes popular full-flavor and menthol options.",
+      "Consistent sourcing standards support quality and authenticity.",
+      "Variant-level listings make comparison faster and more accurate.",
+      "In-store presentation is organized for quick brand navigation.",
+      "Transparent pricing helps customers evaluate options with confidence.",
+      "Call-ahead availability support is provided for high-demand variants."
+    ]
+  },
+  "models": [
+    {
+      "name": "Marlboro",
+      "variants": [
+        {
+          "name": "Smooth Fresh Menthol",
+          "price": 16.58,
+          "image": "/images/products/cigarettes/marlboro/marlboro-smooth-fresh-menthol-flavor.webp",
+          "inStock": true
+        },
+        {
+          "name": "Menthol Gold 100s",
+          "price": 16.58,
+          "image": "/images/products/cigarettes/marlboro/marlboro-smooth-100s.webp",
+          "inStock": true
+        },
+        {
+          "name": "Gold 100s",
+          "price": 16.58,
+          "image": "/images/products/cigarettes/marlboro/marlboro-100s-mellow-flavor.webp",
+          "inStock": true
+        },
+        {
+          "name": "Red 100s",
+          "price": 16.58,
+          "image": "/images/products/cigarettes/marlboro/marlboro-red.webp",
+          "inStock": true
+        },
+        {
+          "name": "Menthol Smooth 100s",
+          "price": 17.01,
+          "image": "/images/products/cigarettes/marlboro/marlboro-smooth-100s.webp",
+          "inStock": true
+        },
+        {
+          "name": "72 Green Menthol",
+          "price": 16.58,
+          "image": "/images/products/cigarettes/marlboro/marlboro-seventy-twos.webp",
+          "inStock": true
+        },
+        {
+          "name": "Menthol Black",
+          "price": 16.58,
+          "image": "/images/products/cigarettes/marlboro/marlboro-black-menthol.webp",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "name": "Pall Mall",
+      "variants": [
+        {
+          "name": "Orange",
+          "price": 14.35,
+          "image": "/images/products/cigarettes/pall-mall/orange.webp",
+          "inStock": true
+        },
+        {
+          "name": "Blue 100s",
+          "price": 14.35,
+          "image": "/images/products/cigarettes/pall-mall/blue.webp",
+          "inStock": true
+        },
+        {
+          "name": "Menthol 100s",
+          "price": 14.35,
+          "image": "/images/products/cigarettes/pall-mall/green.webp",
+          "inStock": true
+        },
+        {
+          "name": "Red 100s",
+          "price": 14.35,
+          "image": "/images/products/cigarettes/pall-mall/red.webp",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "name": "Winston",
+      "variants": [
+        {
+          "name": "Tobacco and Water",
+          "price": 13.45,
+          "image": "/images/products/cigarettes/winston/winston-lights-100.webp",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "name": "Natural American Spirit",
+      "variants": [
+        {
+          "name": "Turquoise",
+          "price": 17.01,
+          "image": "/images/products/cigarettes/american-spirit/1.webp",
+          "inStock": true
+        },
+        {
+          "name": "Dark Green",
+          "price": 17.01,
+          "image": "/images/products/cigarettes/american-spirit/2.webp",
+          "inStock": true
+        },
+        {
+          "name": "Blue",
+          "price": 17.01,
+          "image": "/images/products/cigarettes/american-spirit/3.webp",
+          "inStock": true
+        },
+        {
+          "name": "Yellow",
+          "price": 17.01,
+          "image": "/images/products/cigarettes/american-spirit/4.webp",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "name": "Newport",
+      "variants": [
+        {
+          "name": "Non-Menthol Red 100s",
+          "price": 16.26,
+          "image": "/images/products/cigarettes/newport/1.webp",
+          "inStock": true
+        },
+        {
+          "name": "Menthol 100s",
+          "price": 16.26,
+          "image": "/images/products/cigarettes/newport/2.webp",
+          "inStock": true
+        },
+        {
+          "name": "Menthol Gold 100s",
+          "price": 16.26,
+          "image": "/images/products/cigarettes/newport/3.webp",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "name": "Crowns",
+      "variants": [
+        {
+          "name": "Dark Green Kings 100s",
+          "price": 10.52,
+          "image": "/images/products/cigarettes/crowns/1.webp",
+          "inStock": true
+        },
+        {
+          "name": "Red Box 100s",
+          "price": 10.52,
+          "image": "/images/products/cigarettes/crowns/2.webp",
+          "inStock": true
+        },
+        {
+          "name": "Gold Box 100s",
+          "price": 10.52,
+          "image": "/images/products/cigarettes/crowns/3.webp",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "name": "Maverick",
+      "variants": [
+        {
+          "name": "Gold 100s",
+          "price": 14.88,
+          "image": "/images/products/cigarettes/maverick/gold.webp",
+          "inStock": true
+        },
+        {
+          "name": "Menthol 100s",
+          "price": 14.88,
+          "image": "/images/products/cigarettes/maverick/menthol-100s.webp",
+          "inStock": true
+        },
+        {
+          "name": "Red 100s",
+          "price": 14.88,
+          "image": "/images/products/cigarettes/maverick/red.webp",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "name": "L&M",
+      "variants": [
+        {
+          "name": "Green 100s",
+          "price": 14.88,
+          "image": "/images/products/cigarettes/lm/l-and-m-menthol.webp",
+          "inStock": true
+        },
+        {
+          "name": "Red 100s",
+          "price": 14.88,
+          "image": "/images/products/cigarettes/lm/red.webp",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "name": "Camel Crush",
+      "variants": [
+        {
+          "name": "menthol",
+          "price": 15.94,
+          "image": "/images/brands/cigarettes.webp",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "name": "Seneca",
+      "variants": [
+        {
+          "name": "Full Flavor 100s",
+          "price": 9.88,
+          "image": "/images/products/cigarettes/seneca/seneca-red-100.webp",
+          "inStock": true
+        },
+        {
+          "name": "Menthol 100s",
+          "price": 9.88,
+          "image": "/images/products/cigarettes/seneca/seneca-menthol-100.webp",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "name": "USA Gold",
+      "variants": [
+        {
+          "name": "Lights 100s",
+          "price": 12.75,
+          "image": "/images/products/cigarettes/usa-gold-lights-100.webp",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "name": "DJARUM SELECT",
+      "variants": [
+        {
+          "name": "Filtered Cigar",
+          "price": 12.75,
+          "image": "/images/products/cigarettes/djarum/djarum-reds-select.webp",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "name": "DJARUM SPLASH",
+      "variants": [
+        {
+          "name": "Filtered Cigar",
+          "price": 12.75,
+          "image": "/images/products/cigarettes/djarum/djarum-splash.webp",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "name": "DJARUM BLACK",
+      "variants": [
+        {
+          "name": "Filtered Cigar",
+          "price": 12.75,
+          "image": "/images/products/cigarettes/djarum/djarum-black-silver.webp",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "name": "Double Diamond",
+      "variants": [
+        {
+          "name": "Green 100's",
+          "price": 3.18,
+          "image": "/images/products/cigarettes/double-diamond/double-diamond-green-100.webp",
+          "inStock": true
+        },
+        {
+          "name": "Blue 100's",
+          "price": 3.18,
+          "image": "/images/products/cigarettes/double-diamond/double-diamond-green-100.webp",
+          "inStock": true
+        },
+        {
+          "name": "Grape 100's",
+          "price": 3.18,
+          "image": "/images/products/cigarettes/double-diamond/double-diamond-grape.webp",
+          "inStock": true
+        },
+        {
+          "name": "Black Cherry 100's",
+          "price": 3.18,
+          "image": "/images/products/cigarettes/double-diamond/double-diamond-black.webp",
+          "inStock": true
+        }
+      ]
+    }
+  ]
+}

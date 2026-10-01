@@ -1,0 +1,79 @@
+{
+  "slug": "juul",
+  "name": "JUUL",
+  "title": "JUUL Pod System",
+  "category": "pod-systems",
+  "order": 22,
+  "cardImage": "/images/brands/juul.webp",
+  "image": "/images/products/pod-systems/juul-device-silver.webp",
+  "price": 29.99,
+  "description": "Reliable pod-system performance with balanced draw, clean flavor output, and practical everyday convenience.",
+  "modelLabel": null,
+  "variantLabel": "Option",
+  "overview": {
+    "title": "Product Overview",
+    "points": [
+      "Designed for smooth pod-based performance with predictable output.",
+      "Compatible options focus on balanced throat hit and flavor clarity.",
+      "Compact form factor supports discreet and convenient daily use.",
+      "Simple setup process helps minimize learning curve for new users.",
+      "Clear in-store pricing improves decision-making at purchase time.",
+      "Availability support is provided directly through our call line."
+    ]
+  },
+  "models": [
+    {
+      "name": "JUUL Pod System",
+      "variants": [
+        {
+          "name": "JUUL Device Silver",
+          "price": 15.94,
+          "image": "/images/products/pod-systems/juul-device-silver.webp",
+          "inStock": true
+        },
+        {
+          "name": "JUUL Device Slate",
+          "price": 15.94,
+          "image": "/images/products/pod-systems/juul-device-slate.webp",
+          "inStock": true
+        },
+        {
+          "name": "Menthol 3.0%",
+          "price": 21.26,
+          "image": "/images/products/pod-systems/juul-menthol-3-0.webp",
+          "inStock": true
+        },
+        {
+          "name": "Menthol 5.0% (4 Pods)",
+          "price": 23.39,
+          "image": null,
+          "inStock": true
+        },
+        {
+          "name": "Menthol 5.0% (2 Pods)",
+          "price": 17.01,
+          "image": null,
+          "inStock": true
+        },
+        {
+          "name": "Virginia Tobacco 2 Pods",
+          "price": 15.94,
+          "image": "/images/products/pod-systems/juul-virginia-tobacco-2.webp",
+          "inStock": true
+        },
+        {
+          "name": "Virginia Tobacco 5.0%",
+          "price": 23.39,
+          "image": "/images/products/pod-systems/juul-virginia-tobacco-5-0.webp",
+          "inStock": true
+        },
+        {
+          "name": "Virginia Tobacco",
+          "price": 23.39,
+          "image": "/images/products/pod-systems/juul-virginia-tobacco.webp",
+          "inStock": true
+        }
+      ]
+    }
+  ]
+}

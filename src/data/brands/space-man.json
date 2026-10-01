@@ -1,0 +1,55 @@
+{
+  "slug": "space-man",
+  "name": "Space Man",
+  "title": "Space Man Disposable Vapes",
+  "category": "disposable-vapes",
+  "order": 12,
+  "cardImage": "/images/brands/space-man.webp",
+  "image": "/images/brands/space-man.webp",
+  "price": 19.99,
+  "description": "Premium disposable device with smooth draw performance, consistent flavor delivery, and dependable in-store availability.",
+  "modelLabel": "Model",
+  "variantLabel": "Flavor",
+  "overview": {
+    "title": "Professional Overview",
+    "points": [
+      "Engineered for consistent flavor delivery from first puff to last.",
+      "Balanced airflow profile supports a smoother, more controlled draw.",
+      "Curated flavor lineup designed for repeatable day-to-day satisfaction.",
+      "Portable build quality makes it practical for regular use on the go.",
+      "Transparent in-store pricing helps customers compare confidently.",
+      "Real-time stock support is available through our store call line."
+    ]
+  },
+  "models": [
+    {
+      "name": "Spaceman Smart Screen 20K",
+      "variants": [
+        {
+          "name": "Apple Kiwi Ice",
+          "price": 21.26,
+          "image": "/images/products/space-man/apple-kiwi-ice.webp",
+          "inStock": true
+        },
+        {
+          "name": "Dark Grapefruit",
+          "price": 21.26,
+          "image": "/images/products/space-man/dark-grape-fruit.webp",
+          "inStock": true
+        },
+        {
+          "name": "Pineapple Watermelon",
+          "price": 21.26,
+          "image": "/images/products/space-man/pineapple-watermelon.webp",
+          "inStock": true
+        },
+        {
+          "name": "Strawberry Mini Candy",
+          "price": 21.26,
+          "image": "/images/products/space-man/strawberry-mint-candy.webp",
+          "inStock": true
+        }
+      ]
+    }
+  ]
+}

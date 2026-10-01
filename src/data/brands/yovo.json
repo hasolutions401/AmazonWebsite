@@ -1,0 +1,60 @@
+{
+  "slug": "yovo",
+  "name": "Yovo",
+  "title": "Yovo Disposable Vapes",
+  "category": "disposable-vapes",
+  "order": 7,
+  "cardImage": "/images/brands/yovo.webp",
+  "image": "/images/brands/yovo.webp",
+  "price": 18.49,
+  "description": "Premium disposable device with smooth draw performance, consistent flavor delivery, and dependable in-store availability.",
+  "modelLabel": "Model",
+  "variantLabel": "Flavor",
+  "overview": {
+    "title": "Professional Overview",
+    "points": [
+      "Engineered for consistent flavor delivery from first puff to last.",
+      "Balanced airflow profile supports a smoother, more controlled draw.",
+      "Curated flavor lineup designed for repeatable day-to-day satisfaction.",
+      "Portable build quality makes it practical for regular use on the go.",
+      "Transparent in-store pricing helps customers compare confidently.",
+      "Real-time stock support is available through our store call line."
+    ]
+  },
+  "models": [
+    {
+      "name": "YOVO Ultra 18000 (Full Screen)",
+      "variants": [
+        {
+          "name": "Peach Ice",
+          "price": 17.99,
+          "image": null,
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "name": "YOVO JB8000 (8000 Puffs)",
+      "variants": [
+        {
+          "name": "Fuji Peach",
+          "price": 15.94,
+          "image": "/images/products/yovo/fuji-peach-yovo-jb8000.webp",
+          "inStock": true
+        },
+        {
+          "name": "Miami Mint",
+          "price": 17.99,
+          "image": null,
+          "inStock": true
+        },
+        {
+          "name": "Root Beer",
+          "price": 17.99,
+          "image": "/images/products/yovo/rootbeer-d3ca5049-4e2d-4e06-b8b9-e88266c6a31f.webp",
+          "inStock": true
+        }
+      ]
+    }
+  ]
+}

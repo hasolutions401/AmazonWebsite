@@ -1,0 +1,293 @@
+{
+  "slug": "geek-bar",
+  "name": "Geek Bar",
+  "title": "Geek Bar Disposable Vapes",
+  "category": "disposable-vapes",
+  "order": 1,
+  "cardImage": "/images/brands/geek-bar.webp",
+  "image": "/images/brands/geek-bar-pulse.webp",
+  "price": 19.99,
+  "description": "Premium disposable device with smooth draw performance, consistent flavor delivery, and dependable in-store availability.",
+  "modelLabel": "Model",
+  "variantLabel": "Flavor",
+  "overview": {
+    "title": "Professional Overview",
+    "points": [
+      "Engineered for consistent flavor delivery from first puff to last.",
+      "Balanced airflow profile supports a smoother, more controlled draw.",
+      "Curated flavor lineup designed for repeatable day-to-day satisfaction.",
+      "Portable build quality makes it practical for regular use on the go.",
+      "Transparent in-store pricing helps customers compare confidently.",
+      "Real-time stock support is available through our store call line."
+    ]
+  },
+  "models": [
+    {
+      "name": "Geek Bar Pulse",
+      "variants": [
+        {
+          "name": "California Cherry",
+          "price": 29.77,
+          "image": "/images/products/geek-bar/geek-bar-california-cherry.webp",
+          "inStock": true
+        },
+        {
+          "name": "Pink Lemonade",
+          "price": 31.89,
+          "image": "/images/products/geek-bar/geek-bar-pink-lemonade.webp",
+          "inStock": true
+        },
+        {
+          "name": "Sour Apple Ice",
+          "price": 31.89,
+          "image": "/images/products/geek-bar/geek-bar-sour-apple-ice.webp",
+          "inStock": true
+        },
+        {
+          "name": "Frozen Pina Colada",
+          "price": 31.89,
+          "image": "/images/products/geek-bar/geek-bar-frozen-pina-colada.webp",
+          "inStock": true
+        },
+        {
+          "name": "Blue Razz Ice",
+          "price": 29.77,
+          "image": "/images/products/geek-bar/geek-bar-blue-razz-ice.webp",
+          "inStock": true
+        },
+        {
+          "name": "Grape B-Burst",
+          "price": 31.89,
+          "image": "/images/products/geek-bar/geek-bar-grape-b-burst.webp",
+          "inStock": true
+        },
+        {
+          "name": "Dragon Melon",
+          "price": 31.89,
+          "image": "/images/products/geek-bar/geek-bar-pulse-dragon-melon.webp",
+          "inStock": true
+        },
+        {
+          "name": "Strawberry Savers",
+          "price": 31.89,
+          "image": "/images/products/geek-bar/geek-bar-pulse-strawberry-savers.webp",
+          "inStock": true
+        },
+        {
+          "name": "FCUKING FAB",
+          "price": 31.89,
+          "image": "/images/products/geek-bar/geek-bar-pulse-fcuking-fab.webp",
+          "inStock": true
+        },
+        {
+          "name": "White Gummy Ice",
+          "price": 31.89,
+          "image": "/images/products/geek-bar/white-gummy-ice-geek-bar-pulse.webp",
+          "inStock": true
+        },
+        {
+          "name": "Juicy Peach Ice",
+          "price": 31.89,
+          "image": "/images/products/geek-bar/geek-bar-pulse-juicy-peach-ice.webp",
+          "inStock": true
+        },
+        {
+          "name": "Meta Moon",
+          "price": 31.89,
+          "image": "/images/products/geek-bar/geek-bar-pulse-meta-moon.webp",
+          "inStock": true
+        },
+        {
+          "name": "Pineapple Savers",
+          "price": 31.89,
+          "image": "/images/products/geek-bar/geek-bar-pulse-pineapple-savers.webp",
+          "inStock": true
+        },
+        {
+          "name": "Miami Mint",
+          "price": 31.89,
+          "image": "/images/products/geek-bar/geek-bar-pulse-pine-miami-mint.webp",
+          "inStock": true
+        },
+        {
+          "name": "Wild Berry Savers",
+          "price": 31.89,
+          "image": "/images/products/geek-bar/geek-bar-wild-berry-savers.webp",
+          "inStock": true
+        },
+        {
+          "name": "Mexico Mango",
+          "price": 31.89,
+          "image": "/images/products/geek-bar/geek-bar-pulse-mexico-mango.webp",
+          "inStock": true
+        },
+        {
+          "name": "Sour Blue Dust",
+          "price": 31.89,
+          "image": "/images/products/geek-bar/geek-bar-pulse-sour-blue-dust.webp",
+          "inStock": true
+        },
+        {
+          "name": "Black Cherry",
+          "price": 29.77,
+          "image": "/images/products/geek-bar/geek-bar-pulse-black-cherry.webp",
+          "inStock": true
+        },
+        {
+          "name": "Cool Mint",
+          "price": 31.89,
+          "image": "/images/products/geek-bar/geek-bar-pulse-cool-mint.webp",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "name": "Geek Bar Pulse X",
+      "variants": [
+        {
+          "name": "Banana Taffy Freeze",
+          "price": 29.77,
+          "image": "/images/products/geek-bar-pulse-x/geek-bar-pulse-x-banana-taffy-freeze.webp",
+          "inStock": true
+        },
+        {
+          "name": "Sour Straws",
+          "price": 31.89,
+          "image": "/images/products/geek-bar-pulse-x/geek-bar-pulse-x-sour-straws.webp",
+          "inStock": true
+        },
+        {
+          "name": "Sour Apple Ice",
+          "price": 31.89,
+          "image": "/images/products/geek-bar-pulse-x/geek-bar-pulse-x-sour-apple-ice.webp",
+          "inStock": true
+        },
+        {
+          "name": "Pink & Blue",
+          "price": 31.89,
+          "image": "/images/products/geek-bar-pulse-x/pinkblue.webp",
+          "inStock": true
+        },
+        {
+          "name": "Raspberry Peach Lime",
+          "price": 31.89,
+          "image": "/images/products/geek-bar-pulse-x/geek-bar-pulse-x-raspberry-peach-lime.webp",
+          "inStock": true
+        },
+        {
+          "name": "Peach Perfect Slush",
+          "price": 31.89,
+          "image": "/images/products/geek-bar-pulse-x/geek-bar-pulse-x-peach-perfect-slush.webp",
+          "inStock": true
+        },
+        {
+          "name": "Orange Dragon",
+          "price": 31.89,
+          "image": "/images/products/geek-bar-pulse-x/geek-bar-pulse-x-orange-dragon.webp",
+          "inStock": true
+        },
+        {
+          "name": "Strawberry B-Burst",
+          "price": 31.89,
+          "image": "/images/products/geek-bar-pulse-x/geek-bar-pulse-x-strawberry-b-burst.webp",
+          "inStock": true
+        },
+        {
+          "name": "Strawberry Colada",
+          "price": 31.89,
+          "image": "/images/products/geek-bar-pulse-x/geek-bar-pulse-x-strawberry-colada.webp",
+          "inStock": true
+        },
+        {
+          "name": "Blackberry B-Burst",
+          "price": 29.77,
+          "image": "/images/products/geek-bar-pulse-x/geek-bar-pulse-x-blackberry-b-burst.webp",
+          "inStock": true
+        },
+        {
+          "name": "White Peach Raspberry",
+          "price": 31.89,
+          "image": "/images/products/geek-bar-pulse-x/geek-bar-pulse-x-white-peach-raspberry.webp",
+          "inStock": true
+        },
+        {
+          "name": "Pear of Thieves",
+          "price": 31.89,
+          "image": "/images/products/geek-bar-pulse-x/geek-bar-pulse-x-pear-of-thieves.webp",
+          "inStock": true
+        },
+        {
+          "name": "Blueberry Jam",
+          "price": 29.77,
+          "image": "/images/products/geek-bar-pulse-x/geek-bar-pulse-x-blueberry-jam.webp",
+          "inStock": true
+        },
+        {
+          "name": "Watermelon Ice",
+          "price": 31.89,
+          "image": "/images/products/geek-bar-pulse-x/geek-bar-pulse-x-watermelon-ice.webp",
+          "inStock": true
+        },
+        {
+          "name": "Orange Fcuking Fab",
+          "price": 31.89,
+          "image": "/images/products/geek-bar-pulse-x/geek-bar-pulse-x-orange-fcuking-fab.webp",
+          "inStock": true
+        },
+        {
+          "name": "Cool Mint",
+          "price": 29.77,
+          "image": "/images/products/geek-bar-pulse-x/geek-bar-pulse-x-cool-mint.webp",
+          "inStock": true
+        },
+        {
+          "name": "Miami Mint",
+          "price": 31.89,
+          "image": "/images/products/geek-bar-pulse-x/geek-bar-pulse-x-miami-mint.webp",
+          "inStock": true
+        },
+        {
+          "name": "Sour Fcuking Fab",
+          "price": 31.89,
+          "image": "/images/products/geek-bar-pulse-x/sour-fcuking-fab-zero-nicotine-geek-bar-pulse-x.webp",
+          "inStock": true
+        },
+        {
+          "name": "Orange Slush",
+          "price": 31.89,
+          "image": "/images/products/geek-bar-pulse-x/geek-bar-pulse-x-orange-slush.webp",
+          "inStock": true
+        },
+        {
+          "name": "Raspberry Jam",
+          "price": 31.89,
+          "image": "/images/products/geek-bar-pulse-x/geek-bar-pulse-x-raspberry-jam.webp",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "name": "Geek Bar Ice Prince",
+      "variants": [
+        {
+          "name": "Strawberry Ice",
+          "price": 31.89,
+          "image": "/images/products/geek-bar/geek-bar-ice-prince-strawberry-ice-flavour.webp",
+          "inStock": true
+        },
+        {
+          "name": "Blueberry Raspberry Ice",
+          "price": 29.77,
+          "image": "/images/products/geek-bar/geek-bar-ice-prince-blueberry-rasperry-ice.webp",
+          "inStock": true
+        },
+        {
+          "name": "Strawberry Watermelon Banana",
+          "price": 31.89,
+          "image": "/images/products/geek-bar/strawberry-watermelon-banana-ice-prince-geek-bar.webp",
+          "inStock": true
+        }
+      ]
+    }
+  ]
+}

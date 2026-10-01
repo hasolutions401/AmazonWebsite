@@ -1,0 +1,85 @@
+{
+  "slug": "pod-salt",
+  "name": "Pod Salt",
+  "title": "Pod Salt Disposable Vapes",
+  "category": "disposable-vapes",
+  "order": 3,
+  "cardImage": "/images/brands/pod-salt.webp",
+  "image": "/images/brands/pod-salt.webp",
+  "price": 14.99,
+  "description": "Premium disposable device with smooth draw performance, consistent flavor delivery, and dependable in-store availability.",
+  "modelLabel": "Model",
+  "variantLabel": "Flavor",
+  "overview": {
+    "title": "Professional Overview",
+    "points": [
+      "Engineered for consistent flavor delivery from first puff to last.",
+      "Balanced airflow profile supports a smoother, more controlled draw.",
+      "Curated flavor lineup designed for repeatable day-to-day satisfaction.",
+      "Portable build quality makes it practical for regular use on the go.",
+      "Transparent in-store pricing helps customers compare confidently.",
+      "Real-time stock support is available through our store call line."
+    ]
+  },
+  "models": [
+    {
+      "name": "Pod Salt 40K Hit",
+      "variants": [
+        {
+          "name": "Blue Sour Raspberry",
+          "price": 31.89,
+          "image": "/images/products/pod-salt/bsr.webp",
+          "inStock": true
+        },
+        {
+          "name": "White Gummy Bear",
+          "price": 31.89,
+          "image": "/images/products/pod-salt/wgb.webp",
+          "inStock": true
+        },
+        {
+          "name": "Kiwi Passion Lime",
+          "price": 31.89,
+          "image": "/images/products/pod-salt/kpl.webp",
+          "inStock": true
+        },
+        {
+          "name": "Mango Strawberry Peach",
+          "price": 31.89,
+          "image": "/images/products/pod-salt/msp.webp",
+          "inStock": true
+        },
+        {
+          "name": "Purple Pink Lemonade",
+          "price": 31.89,
+          "image": "/images/products/pod-salt/ppl.webp",
+          "inStock": true
+        },
+        {
+          "name": "Sweet Strawberry Lemonade",
+          "price": 31.89,
+          "image": "/images/products/pod-salt/ssl.webp",
+          "inStock": true
+        },
+        {
+          "name": "Triple Mango",
+          "price": 31.89,
+          "image": "/images/products/pod-salt/tm.webp",
+          "inStock": true
+        },
+        {
+          "name": "Strawberry Watermelon Kiwi",
+          "price": 31.89,
+          "image": "/images/products/pod-salt/swk.webp",
+          "inStock": true
+        },
+        {
+          "name": "Juicy Peach Ice",
+          "price": 31.89,
+          "image": "/images/products/pod-salt/jpi.webp",
+          "inStock": true
+        }
+      ]
+    }
+  ]
+}

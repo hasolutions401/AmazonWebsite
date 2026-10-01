@@ -1,0 +1,306 @@
+{
+  "slug": "airis",
+  "name": "Airis",
+  "title": "Airis Disposable Vapes",
+  "category": "disposable-vapes",
+  "order": 9,
+  "cardImage": "/images/brands/airis.webp",
+  "image": "/images/brands/airis.webp",
+  "price": 17.99,
+  "description": "Premium disposable device with smooth draw performance, consistent flavor delivery, and dependable in-store availability.",
+  "modelLabel": "Model",
+  "variantLabel": "Flavor",
+  "overview": {
+    "title": "Professional Overview",
+    "points": [
+      "Engineered for consistent flavor delivery from first puff to last.",
+      "Balanced airflow profile supports a smoother, more controlled draw.",
+      "Curated flavor lineup designed for repeatable day-to-day satisfaction.",
+      "Portable build quality makes it practical for regular use on the go.",
+      "Transparent in-store pricing helps customers compare confidently.",
+      "Real-time stock support is available through our store call line."
+    ]
+  },
+  "models": [
+    {
+      "name": "Airis Beast 4000",
+      "variants": [
+        {
+          "name": "Miami Mint",
+          "price": 17.01,
+          "image": "/images/products/airis-beast-4000/miami-mint.webp",
+          "inStock": true
+        },
+        {
+          "name": "Cherry Kiss",
+          "price": 17.01,
+          "image": "/images/products/airis-beast-4000/cherry-ice.webp",
+          "inStock": true
+        },
+        {
+          "name": "Raz Currant Ice",
+          "price": 17.01,
+          "image": "/images/products/airis-beast-4000/airis-beast-4000-raz-currant-ice.webp",
+          "inStock": true
+        },
+        {
+          "name": "Black Ice",
+          "price": 17.01,
+          "image": "/images/products/airis-beast-4000/black-icew.webp",
+          "inStock": true
+        },
+        {
+          "name": "Strawberry Banana",
+          "price": 17.01,
+          "image": "/images/products/airis-beast-4000/airis-beast-4000-strawberry-banana.webp",
+          "inStock": true
+        },
+        {
+          "name": "Kiwi Strawberry",
+          "price": 17.01,
+          "image": "/images/products/airis-beast-4000/airis-beast-4000-kiwi-strawberry.webp",
+          "inStock": true
+        },
+        {
+          "name": "Strawberry Coconut",
+          "price": 17.01,
+          "image": "/images/products/airis-beast-4000/airis-beast-4000-strawberry-coconut.webp",
+          "inStock": true
+        },
+        {
+          "name": "Lush Ice",
+          "price": 17.01,
+          "image": "/images/products/airis-beast-4000/airis-beast-4000-lush-ice.webp",
+          "inStock": true
+        },
+        {
+          "name": "Polar Ice",
+          "price": 17.01,
+          "image": "/images/products/airis-beast-4000/polar-ice.webp",
+          "inStock": true
+        },
+        {
+          "name": "VIP",
+          "price": 17.01,
+          "image": "/images/products/airis-beast-4000/vip.webp",
+          "inStock": true
+        },
+        {
+          "name": "Strawberry Ice",
+          "price": 17.01,
+          "image": "/images/products/airis-beast-4000/stawberry-ice.webp",
+          "inStock": true
+        },
+        {
+          "name": "Blueberry Ice",
+          "price": 17.01,
+          "image": "/images/products/airis-beast-4000/airis-beast-4000-blueberry-ice.webp",
+          "inStock": true
+        },
+        {
+          "name": "Peach Ice",
+          "price": 17.01,
+          "image": "/images/products/airis-beast-4000/airis-beast-4000-peach-ice.webp",
+          "inStock": true
+        },
+        {
+          "name": "Sour Apple",
+          "price": 17.01,
+          "image": "/images/products/airis-beast-4000/airis-beast-4000-sour-apple.webp",
+          "inStock": true
+        },
+        {
+          "name": "Strawberry Watermelon",
+          "price": 17.01,
+          "image": "/images/products/airis-beast-4000/airis-beast-4000-strawberry-watermelon.webp",
+          "inStock": true
+        },
+        {
+          "name": "Cool Mint",
+          "price": 17.01,
+          "image": "/images/products/airis-beast-4000/airis-beast-4000-cool-mint.webp",
+          "inStock": true
+        },
+        {
+          "name": "Blue Raz",
+          "price": 17.01,
+          "image": "/images/products/airis-beast-4000/airis-beast-4000-blue-raz.webp",
+          "inStock": true
+        },
+        {
+          "name": "Kiwi Passion Fruit Guava",
+          "price": 17.01,
+          "image": "/images/products/airis-beast-4000/kiwi-passion-fruit-guava.webp",
+          "inStock": true
+        },
+        {
+          "name": "Banana Ice",
+          "price": 17.01,
+          "image": "/images/products/airis-beast-4000/banana-ice.webp",
+          "inStock": true
+        },
+        {
+          "name": "Tropical Fruit",
+          "price": 17.01,
+          "image": "/images/products/airis-beast-4000/airis-beast-4000-tropical-fruit.webp",
+          "inStock": true
+        },
+        {
+          "name": "Rainbow Candy",
+          "price": 17.01,
+          "image": "/images/products/airis-beast-4000/airis-beast-4000-rainbow-candy.webp",
+          "inStock": true
+        },
+        {
+          "name": "Grape Soda",
+          "price": 17.01,
+          "image": "/images/products/airis-beast-4000/airis-beast-4000-grape-soda.webp",
+          "inStock": true
+        },
+        {
+          "name": "Mango Peach Ice",
+          "price": 17.01,
+          "image": "/images/products/airis-beast-4000/mango-peach-ice.webp",
+          "inStock": true
+        }
+      ]
+    },
+    {
+      "name": "Airis Mega 25K",
+      "variants": [
+        {
+          "name": "Lush Ice",
+          "price": 13.81,
+          "image": "/images/products/airis-mega/airis-xl-lush-ice-f810da5b-2705-477e-a7ed-06ac20e86b88-1200x1200.webp",
+          "inStock": true
+        },
+        {
+          "name": "Grape Soda",
+          "price": 13.81,
+          "image": "/images/products/airis-mega/grape-soda-airis-mega-disposable-vape-device-900x.webp",
+          "inStock": true
+        },
+        {
+          "name": "Cool Mint",
+          "price": 13.81,
+          "image": "/images/products/airis-mega/airis-beast-cool-mint-disposable-vape-device.webp",
+          "inStock": true
+        },
+        {
+          "name": "Kiwi Strawberry",
+          "price": 13.81,
+          "image": "/images/products/airis-mega/airiskiwistrawberry-500x500-0-1024x1024-f3cb9298-1e70-4b41-9315-ec2e210bfd11-1024x1024.webp",
+          "inStock": true
+        },
+        {
+          "name": "Triple Berry Ice",
+          "price": 13.81,
+          "image": "/images/products/airis-mega/triple-berry.webp",
+          "inStock": true
+        },
+        {
+          "name": "Triple berry ice cream",
+          "price": 13.81,
+          "image": "/images/products/airis-mega/triple-berry.webp",
+          "inStock": true
+        },
+        {
+          "name": "Sour Apple",
+          "price": 13.81,
+          "image": "/images/products/airis-mega/sour-apple.webp",
+          "inStock": true
+        },
+        {
+          "name": "Crunberry Punch",
+          "price": 13.81,
+          "image": "/images/products/airis-mega/crunberry-punch.webp",
+          "inStock": true
+        },
+        {
+          "name": "Banana Ice",
+          "price": 13.81,
+          "image": "/images/products/airis-mega/banana-ice.webp",
+          "inStock": true
+        },
+        {
+          "name": "Strawberry Banana",
+          "price": 13.81,
+          "image": "/images/products/airis-mega/strawberry-banana-airis-mega-disposable-vape-device-550x.webp",
+          "inStock": true
+        },
+        {
+          "name": "BlueRazz Cherry",
+          "price": 18.99,
+          "image": "/images/products/airis-mega/blueraz-cherry.webp",
+          "inStock": true
+        },
+        {
+          "name": "Blue Raz",
+          "price": 13.81,
+          "image": "/images/products/airis-mega/blueraz-cherry.webp",
+          "inStock": true
+        },
+        {
+          "name": "Mango Ice",
+          "price": 13.81,
+          "image": "/images/products/airis-mega/mango-ice.webp",
+          "inStock": true
+        },
+        {
+          "name": "Strawberry Pina Colada",
+          "price": 13.81,
+          "image": "/images/products/airis-mega/strawberry-pina-colada.webp",
+          "inStock": true
+        },
+        {
+          "name": "Rainbow Candy",
+          "price": 13.81,
+          "image": "/images/products/airis-mega/rainbow-candy.webp",
+          "inStock": true
+        },
+        {
+          "name": "Guava Mango",
+          "price": 13.81,
+          "image": "/images/products/airis-mega/guava-mango-airis-mega-disposable-vape-device-550x.webp",
+          "inStock": true
+        },
+        {
+          "name": "Blueberry Ice",
+          "price": 13.81,
+          "image": "/images/products/airis-mega/blueberry-ice-airis-mega-disposable-vape-device-550x.webp",
+          "inStock": true
+        },
+        {
+          "name": "Peach Mango Watermelon",
+          "price": 13.81,
+          "image": "/images/products/airis-mega/peach-mango-watermelon.webp",
+          "inStock": true
+        },
+        {
+          "name": "Raspberry Lemonade",
+          "price": 13.81,
+          "image": "/images/products/airis-mega/raspberry-lemonade.webp",
+          "inStock": true
+        },
+        {
+          "name": "Rasberry Lemonade",
+          "price": 13.81,
+          "image": "/images/products/airis-mega/raspberry-lemonade.webp",
+          "inStock": true
+        },
+        {
+          "name": "Black Ice",
+          "price": 13.81,
+          "image": "/images/products/airis-mega/black-ice.webp",
+          "inStock": true
+        },
+        {
+          "name": "Strawberry Icecream",
+          "price": 13.81,
+          "image": "/images/products/airis-mega/strawberry-ice-cream-airis-mega-disposable-vape-device-550x.webp",
+          "inStock": true
+        }
+      ]
+    }
+  ]
+}

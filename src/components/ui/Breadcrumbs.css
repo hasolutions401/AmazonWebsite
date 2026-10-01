@@ -1,0 +1,31 @@
+.crumbs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.crumbs li {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.crumbs a {
+  color: var(--text-2);
+  transition: color 0.2s ease;
+}
+
+.crumbs a:hover {
+  color: var(--primary);
+}
+
+.crumbs [aria-current] {
+  color: var(--sky-soft);
+}
+
+.crumbs svg {
+  opacity: 0.6;
+}
