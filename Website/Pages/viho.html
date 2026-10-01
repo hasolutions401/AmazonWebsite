@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Viho Turbo | Amazon Bazar</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../CSS/shared-styles.css">
+<link rel="stylesheet" href="../CSS/GKP.css">
+<link rel="stylesheet" href="../CSS/mobileresponsive.css">
+</head>
+
+<body>
+
+<nav>
+<div class="logo">
+<a href="../index.html"><img src="../Images/logo.webp" alt="Logo" loading="lazy" decoding="async"></a>
+</div>
+
+<div class="nav-links">
+    <div class="dropdown">
+        <a href="Disposable-Vapes.html" class="active">Disposable Vapes ?</a>
+        <div class="dropdown-menu">
+            <a href="GKP.html">Geek Bar</a>
+            <a href="foger.html">Foger</a>
+            <a href="podsalt.html">Pod Salt</a>
+            <a href="tyson.html">Tyson</a>
+            <a href="oxbar.html">Oxbar</a>
+            <a href="upends.html">Upends</a>
+            <a href="yovo.html">Yovo</a>
+            <a href="raz.html">Raz</a>
+            <a href="airis.html">Airis</a>
+            <a href="viho.html">Viho</a>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <a href="Pod-systems.html">Pod System ?</a>
+        <div class="dropdown-menu">
+            <a href="Pod-systems.html#vuse">VUSE</a>
+            <a href="Pod-systems.html#juul">JUUL</a>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <a href="Nicotine-Pouches.html">Nicotine Pouches ?</a>
+        <div class="dropdown-menu">
+            <a href="Nicotine-Pouches.html#zyn">ZYN</a>
+            <a href="Nicotine-Pouches.html#sesh">Sesh+</a>
+            <a href="Nicotine-Pouches.html#skoal">Skoal</a>
+        </div>
+    </div>
+
+    <a href="Cig.html">Cigarettes</a>
+    <a href="Cigar.html">Cigars</a>
+    <a href="Accessories.html">Hookahs and Accessories</a>
+</div>
+</nav>
+
+<section class="product-wrapper">
+
+<div class="product-image">
+    <img id="mainProductImage" src="../Images/Viho.webp" alt="Viho Turbo Disposable" loading="eager" decoding="async" fetchpriority="high">
+</div>
+
+<div class="product-info">
+<h1>Viho Turbo Disposable</h1>
+    
+    <div class="price">$17.99</div>
+    
+    <div class="stock-status" id="stockStatus">Available In Store</div>
+
+    <p class="short-desc">
+            Premium disposable device with smooth draw performance, consistent flavor delivery, and dependable in-store availability.
+        </p>
+
+<div class="flavor-section">
+    <h3>Select Model</h3>
+    <div class="flavor-grid" id="brandGrid">
+
+        <div class="flavor-option" data-brand="Viho TRX 50k">
+            Viho TRX 50k
+        </div>
+
+   <div class="flavor-option" data-brand="Viho Supercharge">
+            VIHO Ã¢â‚¬â€œ Supercharge (20K)
+        </div>
+
+        <div class="flavor-option" data-brand="Viho Turbo">
+            VIHO Ã¢â‚¬â€œ Turbo
+        </div>
+    </div>
+</div>
+
+<div class="flavor-section">
+    <h3>Select Flavor</h3>
+    <div class="flavor-grid" id="flavorGrid"></div>
+</div>
+
+<a href="tel:+18608482345" class="availability-btn">Check Availability</a>
+</div>
+</section>
+
+<section class="description">
+    <h2>Professional Overview</h2>
+    <ul>
+        <li>Engineered for consistent flavor delivery from first puff to last.</li>
+        <li>Balanced airflow profile supports a smoother, more controlled draw.</li>
+        <li>Curated flavor lineup designed for repeatable day-to-day satisfaction.</li>
+        <li>Portable build quality makes it practical for regular use on the go.</li>
+        <li>Transparent in-store pricing helps customers compare confidently.</li>
+        <li>Real-time stock support is available through our store call line.</li>
+    </ul>
+</section>
+
+<div class="smoke"></div>
+<a href="tel:+18608482345" class="call-btn">Call Now</a>
+
+<div class="page-footer">
+    <a href="Disposable-Vapes.html" class="direction-button back-home-link">Back to Disposable Vapes</a>
+</div>
+
+<script>
+
+const productData = {
+
+"Viho TRX 50k":{
+    variants:{
+        "Banana Taffy Ice": {price:30.83, img:"../Images/VihoTrx50k/Banana-Taffy-Ice_53505c73-155b-489b-b023-369164bb2bc8_600x600_crop_center.webp", stock:true},
+        "Blue Razz Ice":    {price:30.83, img:"../Images/VihoTrx50k/blue razz ice.webp", stock:true},
+        "Grape Ice":        {price:30.83, img:"../Images/VihoTrx50k/Grape-Ice_757d30ba-4a4a-47f7-b525-85de2e5b6efa_800x800.webp", stock:true},
+        "Miami Mint":       {price:30.83, img:"../Images/VihoTrx50k/miami mint.webp", stock:true}
+    }
+},
+
+"Viho Turbo":{
+    variants:{
+        "Banana Ice (Gimi 30k)":          {price:30.83, img:"../Images/VihoTrx50k/viho turbo Banana Ice(Gimi 30k).webp", stock:true},
+        "Banana Icy":                     {price:30.83, img:"../Images/VihoTrx50k/viho turbo banana icy.webp", stock:true},
+        "California Cherry (Gimi 30k)":   {price:30.83, img:"../Images/VihoTrx50k/viho turbo California Cheery(Gimi 30k).webp", stock:true},
+        "Strawberry Cheesecake":          {price:30.83, img:"../Images/VihoTrx50k/viho turbo Strawberry Cheesecake.webp", stock:true},
+        "Tobacco (Gimi 30k)":             {price:30.83, img:"../Images/VihoTrx50k/viho turbo Tobacco(Gimi 30k).webp", stock:true},
+        "Tropical Melon":                 {price:30.83, img:"../Images/VihoTrx50k/viho turbo Tropical Melon.webp", stock:true}
+    }
+},
+
+"Viho Supercharge":{
+    variants:{
+        "Frozen Nana":      {price:30.83, img:"../Images/VihoTrx50k/viho-supercharge-pro-20k-frozen-nana-box.webp", stock:true},
+        "Orange Splash":    {price:30.83, img:"../Images/VihoTrx50k/Viho_Orange_Splash_Supercharge_Vape_20000_Puffs.webp", stock:true},
+        "Virginia Tobacco": {price:30.83, img:"../Images/VihoTrx50k/Virginia_Tobacco_VIHO_Supercharge_Disposable_Vape_20000_Puff.webp", stock:true}
+    }
+}
+
+};
+
+const brandOptions = document.querySelectorAll("#brandGrid .flavor-option");
+const flavorGrid = document.getElementById("flavorGrid");
+const mainImage = document.getElementById("mainProductImage");
+const priceTag = document.querySelector(".price");
+const stockStatus = document.getElementById("stockStatus");
+const title = document.querySelector("h1");
+
+function showFlavorPrompt(){
+    flavorGrid.innerHTML = "<div class=\"flavor-option\" aria-disabled=\"true\" tabindex=\"-1\" style=\"opacity:.75;cursor:default;pointer-events:none;\">Select a model to view available flavors</div>";
+}
+
+function updateStockUI(stock){
+    if(stock){
+        stockStatus.textContent="Available In Store";
+        stockStatus.className="stock-status in-stock";
+    }else{
+        stockStatus.textContent="Currently Unavailable";
+        stockStatus.className="stock-status out-stock";
+    }
+}
+
+function loadBrand(brand){
+
+    flavorGrid.innerHTML="";
+    title.textContent = brand;
+
+    const variants = productData[brand].variants;
+
+    Object.keys(variants).forEach((variant)=>{
+
+        const div = document.createElement("div");
+        div.classList.add("flavor-option");
+        div.textContent = variant;
+
+        div.addEventListener("click",()=>{
+
+            document.querySelectorAll("#flavorGrid .flavor-option")
+            .forEach(v=>v.classList.remove("active"));
+
+            div.classList.add("active");
+
+            mainImage.style.opacity="0";
+            setTimeout(()=>{
+                mainImage.src = variants[variant].img;
+                mainImage.style.opacity="1";
+            },150);
+
+            priceTag.textContent = "$"+variants[variant].price.toFixed(2);
+            updateStockUI(variants[variant].stock);
+
+        });
+
+        flavorGrid.appendChild(div);
+
+    });
+
+}
+
+brandOptions.forEach(option=>{
+    option.addEventListener("click",()=>{
+        brandOptions.forEach(o=>o.classList.remove("active"));
+        option.classList.add("active");
+        loadBrand(option.dataset.brand);
+    });
+});
+
+showFlavorPrompt();
+
+</script>
+<script src="../Pages/mobnav.js?v=20260323g"></script>
+</body>
+</html>

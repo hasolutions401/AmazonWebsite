@@ -1,0 +1,398 @@
+/* ==================== AMAZONBAZAR SHARED STYLES ==================== */
+/* This file contains CSS shared across all pages: variables, navbar, particles, animations */
+/* Import this in every page's <head> before page-specific CSS */
+
+:root {
+  --primary: #0ea5ff;
+  --dark: #0b1120;
+  --glass: rgba(255, 255, 255, 0.06);
+  --text-primary: #eef2ff;
+  --text-muted: #94a3b8;
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 20px;
+  --space-lg: 36px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+main section[id] {
+  scroll-margin-top: 96px;
+}
+
+body {
+  background: linear-gradient(180deg, #0b1120, #0f172a);
+  color: #fff;
+  overflow-x: hidden;
+  max-width: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+iframe,
+video {
+  max-width: 100%;
+}
+
+img {
+  height: auto;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid #38bdf8;
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+/* SKIP LINK - ACCESSIBILITY */
+.skip-link {
+  position: absolute;
+  left: 16px;
+  top: -60px;
+  background: #0ea5ff;
+  color: #00132d;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-weight: 700;
+  text-decoration: none;
+  z-index: 3000;
+  transition: top 0.2s ease;
+}
+
+.skip-link:focus {
+  top: 16px;
+}
+
+/* PARTICLES BACKGROUND */
+body::before {
+  content: "";
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at 20% 30%, rgba(14, 165, 255, 0.18) 0%, transparent 45%),
+    radial-gradient(circle at 80% 70%, rgba(37, 99, 235, 0.15) 0%, transparent 45%),
+    url("https://www.transparenttextures.com/patterns/stardust.png");
+  animation: moveParticles 140s linear infinite;
+  opacity: 0.35;
+  z-index: -2;
+}
+
+@keyframes moveParticles {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 4000px 4000px;
+  }
+}
+
+/* VIGNETTE */
+body::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at center, transparent 55%, rgba(0, 0, 0, 0.75) 100%);
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* NAVBAR - SHARED ACROSS ALL PAGES */
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(15, 23, 42, 0.92);
+  backdrop-filter: blur(12px);
+  padding: 16px 0;
+  text-align: center;
+  z-index: 1000;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.logo img {
+  height: 85px;
+  filter: drop-shadow(0 0 15px #00bfff) drop-shadow(0 0 35px #0077ff);
+  transition: 0.3s;
+}
+
+.logo img:hover {
+  transform: scale(1.04);
+}
+
+.nav-links {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 38px;
+  flex-wrap: wrap;
+}
+
+.nav-links a {
+  position: relative;
+  color: #e5e7eb;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+  font-size: 14px;
+  padding: 6px 2px;
+  transition: 0.3s ease;
+}
+
+.nav-links a:focus,
+.nav-links a:focus-visible {
+  outline: none;
+  box-shadow: none;
+}
+
+.nav-links a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 0;
+  height: 2px;
+  background: var(--primary);
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #fff;
+}
+
+.nav-links a:hover::after,
+.nav-links a.active::after,
+.nav-links a[aria-current="page"]::after {
+  width: 100%;
+}
+
+.nav-links a.active,
+.nav-links a[aria-current="page"] {
+  color: #fff;
+  text-shadow: 0 0 12px rgba(14, 165, 255, 0.35);
+}
+
+.dropdown {
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: rgba(15, 23, 42, 0.98);
+  min-width: 240px;
+  border-radius: 8px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+  max-height: min(70vh, 520px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: all 0.25s ease;
+  z-index: 999;
+}
+
+.dropdown:hover .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.dropdown:focus-within .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 12px 18px;
+  color: #e5e7eb;
+  font-size: 14px;
+  white-space: nowrap;
+  transition: 0.2s;
+}
+
+.dropdown-menu::-webkit-scrollbar {
+  width: 8px;
+}
+
+.dropdown-menu::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.dropdown-menu::-webkit-scrollbar-thumb {
+  background: rgba(56, 189, 248, 0.5);
+  border-radius: 999px;
+}
+
+.dropdown-menu a:hover {
+  background: rgba(14, 165, 255, 0.12);
+  color: var(--primary);
+  padding-left: 24px;
+}
+
+.dropdown-menu a:focus-visible {
+  background: rgba(14, 165, 255, 0.2);
+  color: var(--primary);
+}
+
+/* BUTTONS - SHARED STYLES */
+.btn {
+  display: inline-block;
+  padding: 14px 28px;
+  border-radius: var(--radius-sm);
+  text-decoration: none;
+  font-weight: 600;
+  margin: 10px;
+  transition: 0.3s;
+}
+
+.listing-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(125, 211, 252, 0.35);
+  background: rgba(14, 165, 255, 0.12);
+  color: #e6f6ff;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.primary-btn {
+  background: linear-gradient(45deg, #0ea5ff, #2563eb);
+  color: #fff;
+}
+
+.outline-btn {
+  border: 1px solid var(--primary);
+  color: #fff;
+}
+
+.outline-btn:hover {
+  background: var(--primary);
+}
+
+/* PAGE FOOTER BACK BUTTON - UNIFIED */
+.page-footer {
+  margin: 48px auto 28px !important;
+  text-align: center !important;
+  width: min(92%, 520px) !important;
+  padding: 0 !important;
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+.page-footer .direction-button.back-home-link {
+  display: inline-block !important;
+  width: 100% !important;
+  max-width: 460px !important;
+  padding: 14px 20px !important;
+  border-radius: 12px !important;
+  border: 1px solid rgba(96, 219, 255, 0.55) !important;
+  text-decoration: none !important;
+  color: #ffffff !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.3px !important;
+  background: linear-gradient(135deg, #4ed6ff 0%, #2f8dff 55%, #2a63f0 100%) !important;
+  box-shadow: 0 10px 28px rgba(28, 113, 255, 0.45), 0 0 22px rgba(78, 214, 255, 0.42) !important;
+  transition: transform 0.22s ease, box-shadow 0.22s ease, filter 0.22s ease !important;
+}
+
+.page-footer .direction-button.back-home-link:hover {
+  transform: translateY(-2px) scale(1.01) !important;
+  filter: brightness(1.08) !important;
+  box-shadow: 0 14px 34px rgba(28, 113, 255, 0.55), 0 0 30px rgba(78, 214, 255, 0.5) !important;
+}
+
+.page-footer .direction-button.back-home-link:active {
+  transform: translateY(0) !important;
+}
+
+/* GLOBAL CARD TONE - BLUE */
+:where(.product-card, .collection-card, .quality-card, .gallery-item) {
+  border-color: rgba(96, 219, 255, 0.24) !important;
+  box-shadow: 0 0 34px rgba(0, 120, 255, 0.34) !important;
+}
+
+:where(.product-card, .collection-card, .quality-card, .gallery-item):hover {
+  border-color: #38bdf8 !important;
+  box-shadow: 0 0 55px rgba(0, 120, 255, 0.62), 0 0 90px rgba(0, 80, 200, 0.36) !important;
+}
+
+/* UTILITY ANIMATIONS */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.reveal {
+  animation: fadeInUp 0.8s ease-out forwards;
+  opacity: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+/* RESPONSIVE - MOBILE ADJUSTMENTS */
+@media (max-width: 768px) {
+  .nav-links {
+    gap: 20px;
+  }
+
+  nav {
+    padding: 12px 0;
+  }
+
+  main section[id] {
+    scroll-margin-top: 80px;
+  }
+}

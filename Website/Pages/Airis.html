@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airis Alpha 20K | Amazon Bazar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/GKP.css">
+    <link rel="stylesheet" href="../CSS/shared-styles.css">
+<link rel="stylesheet" href="../CSS/mobileresponsive.css">
+    <style>
+        /* Airis Page &bull; PNG Background Removal Enhancement */
+        .product-image img {
+            filter: 
+                drop-shadow(0 12px 32px rgba(0,0,0,0.95))
+                drop-shadow(0 0 28px rgba(0,212,255,0.45))
+                brightness(1.12)
+                contrast(1.22)
+                saturate(1.32)
+                drop-shadow(0 4px 16px rgba(0,150,255,0.35))
+                invert(0%) sepia(0%);
+            mix-blend-mode: screen;
+            background: transparent !important;
+        }
+        
+        /* Remove white background edges */
+        .product-image img::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: rgba(255, 255, 255, 0);
+            pointer-events: none;
+        }
+        
+        @media (max-width: 768px) {
+            .product-image img {
+                filter: 
+                    drop-shadow(0 8px 24px rgba(0,0,0,0.9))
+                    drop-shadow(0 0 20px rgba(0,212,255,0.35))
+                    brightness(1.10)
+                    contrast(1.20)
+                    saturate(1.28);
+                mix-blend-mode: lighten;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<nav>
+    <div class="logo">
+        <a href="../index.html">
+            <img src="../Images/logo.webp" alt="Logo" loading="lazy" decoding="async">
+        </a>
+    </div>
+
+    <div class="nav-links">
+        <div class="dropdown">
+            <a href="Disposable-Vapes.html" class="active">Disposable Vapes ?</a>
+            <div class="dropdown-menu">
+                <a href="GKP.html">Geek Bar</a>
+                <a href="foger.html">Foger</a>
+                <a href="podsalt.html">Pod Salt</a>
+                <a href="tyson.html">Tyson</a>
+                <a href="oxbar.html">Oxbar</a>
+                <a href="upends.html">Upends</a>
+                <a href="yovo.html">Yovo</a>
+                <a href="raz.html">Raz</a>
+                <a href="airis.html">Airis</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <a href="Pod-systems.html">Pod System ?</a>
+            <div class="dropdown-menu">
+                <a href="Pod-systems.html#vuse">VUSE</a>
+                <a href="Pod-systems.html#juul">JUUL</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <a href="Nicotine-Pouches.html">Nicotine Pouches ?</a>
+            <div class="dropdown-menu">
+                <a href="Nicotine-Pouches.html#zyn">ZYN</a>
+                <a href="Nicotine-Pouches.html#sesh">Sesh+</a>
+                <a href="Nicotine-Pouches.html#skoal">Skoal</a>
+            </div>
+        </div>
+
+        <a href="Cig.html">Cigarettes</a>
+        <a href="Cigar.html">Cigars</a>
+        <a href="Accessories.html">Hookahs and Accessories</a>
+    </div>
+</nav>
+
+<section class="product-wrapper">
+
+    <div class="product-image">
+        <img id="mainProductImage" src="../Images/Airis.webp" alt="Airis Disposable" loading="eager" decoding="async" fetchpriority="high">
+    </div>
+
+    <div class="product-info">
+        <h1>Airis Alpha 20,000 Puffs</h1>
+        
+        <div class="price">$17.99</div>
+        
+        <div class="stock-status in-stock" id="stockStatus">Available In Store</div>
+
+        <p class="short-desc">
+            Premium disposable device with smooth draw performance, consistent flavor delivery, and dependable in-store availability.
+        </p>
+
+       <!-- MODEL SECTION -->
+<div class="flavor-section">
+    <h3>Select Model</h3>
+    <div class="flavor-grid" id="modelGrid">
+
+        <div class="flavor-option" data-model="Airis Beast 4000">Airis Beast 4000</div>
+        <div class="flavor-option" data-model="Airis Mega 25K">Airis Mega 25K</div>
+
+    </div>
+</div>
+
+<!-- FLAVOR SECTION -->
+<div class="flavor-section">
+    <h3>Select Flavor</h3>
+    <div class="flavor-grid" id="flavorGrid"></div>
+</div>
+
+        <a href="tel:+18608482345" class="availability-btn">
+            Check Availability
+        </a>
+
+    </div>
+</section>
+
+<section class="description">
+    <h2>Professional Overview</h2>
+    <ul>
+        <li>Engineered for consistent flavor delivery from first puff to last.</li>
+        <li>Balanced airflow profile supports a smoother, more controlled draw.</li>
+        <li>Curated flavor lineup designed for repeatable day-to-day satisfaction.</li>
+        <li>Portable build quality makes it practical for regular use on the go.</li>
+        <li>Transparent in-store pricing helps customers compare confidently.</li>
+        <li>Real-time stock support is available through our store call line.</li>
+    </ul>
+</section>
+
+<a href="tel:+18608482345" class="call-btn">Call Now</a>
+
+<div class="page-footer">
+    <a href="Disposable-Vapes.html" class="direction-button back-home-link">Back to Disposable Vapes</a>
+</div>
+
+<div class="smoke"></div>
+
+<script>
+
+const productData = {
+
+"Airis Beast 4000":{
+    variants:{
+        "Miami Mint":              {price:17.01, img:"../Images/AirisBeast4000/miami mint.webp",                              stock:true},
+        "Cherry Kiss":             {price:17.01, img:"../Images/AirisBeast4000/cherry ice.webp",                             stock:true},
+        "Raz Currant Ice":         {price:17.01, img:"../Images/AirisBeast4000/Airis Beast 4000 Raz Currant Ice.webp",       stock:true},
+        "Black Ice":               {price:13.81, img:"../Images/AirisBeast4000/black icew.webp",                             stock:true},
+        "Strawberry Banana":       {price:13.81, img:"../Images/AirisBeast4000/Airis Beast 4000 Strawberry Banana.webp",     stock:true},
+        "Kiwi Strawberry":         {price:13.81, img:"../Images/AirisBeast4000/Airis Beast 4000 Kiwi Strawberry.webp",       stock:true},
+        "Strawberry Coconut":      {price:17.01, img:"../Images/AirisBeast4000/Airis Beast 4000 Strawberry Coconut.webp",    stock:true},
+        "Lush Ice":                {price:13.81, img:"../Images/AirisBeast4000/Airis Beast 4000 Lush Ice.webp",              stock:true},
+        "Polar Ice":               {price:17.01, img:"../Images/AirisBeast4000/polar ice.webp",                              stock:true},
+        "VIP":                     {price:17.01, img:"../Images/AirisBeast4000/vip.webp",                                    stock:true},
+        "Strawberry Ice":          {price:17.01, img:"../Images/AirisBeast4000/Stawberry ice.webp",                          stock:true},
+        "Blueberry Ice":           {price:13.81, img:"../Images/AirisBeast4000/Airis Beast 4000 Blueberry Ice.webp",         stock:true},
+        "Peach Ice":               {price:17.01, img:"../Images/AirisBeast4000/Airis Beast 4000 Peach Ice.webp",             stock:true},
+        "Sour Apple":              {price:13.81, img:"../Images/AirisBeast4000/Airis Beast 4000 Sour Apple.webp",            stock:true},
+        "Strawberry Watermelon":   {price:17.01, img:"../Images/AirisBeast4000/Airis Beast 4000 Strawberry Watermelon.webp", stock:true},
+        "Cool Mint":               {price:13.81, img:"../Images/AirisBeast4000/Airis Beast 4000 Cool Mint.webp",             stock:true},
+        "Blue Raz":                {price:13.81, img:"../Images/AirisBeast4000/Airis Beast 4000 Blue Raz.webp",              stock:true},
+        "Kiwi Passion Fruit Guava":{price:17.01, img:"../Images/AirisBeast4000/kiwi passion fruit guava.webp",               stock:true},
+        "Banana Ice":              {price:13.81, img:"../Images/AirisBeast4000/banana ice.webp",                             stock:true},
+        "Tropical Fruit":          {price:17.01, img:"../Images/AirisBeast4000/Airis Beast 4000 Tropical Fruit.webp",        stock:true},
+        "Rainbow Candy":           {price:13.81, img:"../Images/AirisBeast4000/Airis Beast 4000 Rainbow Candy.webp",         stock:true},
+        "Grape Soda":              {price:13.81, img:"../Images/AirisBeast4000/Airis Beast 4000 Grape Soda.webp",            stock:true},
+        "Mango Peach Ice":         {price:17.01, img:"../Images/AirisBeast4000/mango peach ice.webp",                        stock:true}
+    }
+},
+
+"Airis Mega 25K":{
+    variants:{
+        "Lush Ice":               {price:13.81, img:"../Images/Airismega/Airis-XL_lush_ice_f810da5b-2705-477e-a7ed-06ac20e86b88_1200x1200.webp",          stock:true},
+        "Grape Soda":             {price:13.81, img:"../Images/Airismega/Grape-Soda-Airis-MEGA-Disposable-Vape-Device_900x.webp",                         stock:true},
+        "Cool Mint":              {price:13.81, img:"../Images/Airismega/airis-beast-cool_mint_disposable-vape-device.webp",                              stock:true},
+        "Kiwi Strawberry":        {price:13.81, img:"../Images/Airismega/AIRISKiwiStrawberry-500x500-0_1024x1024_f3cb9298-1e70-4b41-9315-ec2e210bfd11_1024x1024.webp", stock:true},
+        "Triple Berry Ice":       {price:13.81, img:"../Images/Airismega/triple berry.webp",                                                               stock:true},
+        "Triple berry ice cream": {price:13.81, img:"../Images/Airismega/triple berry ice cream.webp",                                                               stock:true},
+        "Sour Apple":             {price:13.81, img:"../Images/Airismega/sour apple.webp",                                                                stock:true},
+        "Crunberry Punch":        {price:13.81, img:"../Images/Airismega/crunberry punch.webp",                                                           stock:true},
+        "Banana Ice":             {price:13.81, img:"../Images/Airismega/banana ice.webp",                                                                stock:true},
+        "Strawberry Banana":      {price:13.81, img:"../Images/Airismega/Strawberry-Banana-Airis-MEGA-Disposable-Vape-Device_550x.webp",                  stock:true},
+        "BlueRazz Cherry":        {price:18.99, img:"../Images/Airismega/blueraz cherry.webp",                                                            stock:true},
+        "Blue Raz":               {price:13.81, img:"../Images/Airismega/blueraz cherry.webp",                                                           stock:true},
+        "Mango Ice":              {price:13.81, img:"../Images/Airismega/mango ice.webp",                                                                 stock:true},
+        "Strawberry Pina Colada": {price:13.81, img:"../Images/Airismega/strawberry pina colada.webp",                                                    stock:true},
+        "Rainbow Candy":          {price:13.81, img:"../Images/Airismega/rainbow candy.webp",                                                             stock:true},
+        "Guava Mango":            {price:13.81, img:"../Images/Airismega/Guava-Mango-Airis-MEGA-Disposable-Vape-Device_550x.webp",                        stock:true},
+        "Blueberry Ice":          {price:13.81, img:"../Images/Airismega/Blueberry-Ice-Airis-MEGA-Disposable-Vape-Device_550x.webp",                      stock:true},
+        "Peach Mango Watermelon": {price:13.81, img:"../Images/Airismega/peach mango watermelon.webp",                                                    stock:true},
+        "Raspberry Lemonade":     {price:13.81, img:"../Images/Airismega/raspberry lemonade.webp",                                                        stock:true},
+        "Rasberry Lemonade":      {price:13.81, img:"../Images/Airismega/raspberry lemonade.webp",                                                        stock:true},
+        "Black Ice":              {price:13.81, img:"../Images/Airismega/black ice.webp",                                                                 stock:true},
+        "Strawberry Icecream":    {price:13.81, img:"../Images/Airismega/Strawberry-Ice-Cream-Airis-MEGA-Disposable-Vape-Device_550x.webp",               stock:true}
+    }
+}
+
+};
+
+
+
+
+const modelOptions = document.querySelectorAll("#modelGrid .flavor-option");
+const flavorGrid = document.getElementById("flavorGrid");
+const mainImage = document.getElementById("mainProductImage");
+const priceTag = document.querySelector(".price");
+const stockStatus = document.getElementById("stockStatus");
+const title = document.querySelector("h1");
+
+function showFlavorPrompt(){
+    flavorGrid.innerHTML = "<div class=\"flavor-option\" aria-disabled=\"true\" tabindex=\"-1\" style=\"opacity:.75;cursor:default;pointer-events:none;\">Select a model to view available flavors</div>";
+}
+
+function updateStockUI(stock){
+    if(stock){
+        stockStatus.textContent="Available In Store";
+        stockStatus.className="stock-status in-stock";
+    }else{
+        stockStatus.textContent="Currently Unavailable";
+        stockStatus.className="stock-status out-stock";
+    }
+}
+
+function loadModel(model){
+
+    flavorGrid.innerHTML="";
+    title.textContent = model;
+
+    const variants = productData[model].variants;
+
+    Object.keys(variants).forEach((variant)=>{
+
+        const div = document.createElement("div");
+        div.classList.add("flavor-option");
+        div.textContent = variant;
+
+        div.addEventListener("click",()=>{
+
+            document.querySelectorAll("#flavorGrid .flavor-option")
+            .forEach(v=>v.classList.remove("active"));
+
+            div.classList.add("active");
+
+            mainImage.style.opacity="0";
+
+            setTimeout(()=>{
+                mainImage.src = variants[variant].img;
+                mainImage.style.opacity="1";
+            },150);
+
+            priceTag.textContent = "$"+variants[variant].price.toFixed(2);
+            updateStockUI(variants[variant].stock);
+
+        });
+
+        flavorGrid.appendChild(div);
+
+    });
+
+}
+
+modelOptions.forEach(option=>{
+    option.addEventListener("click",()=>{
+        modelOptions.forEach(o=>o.classList.remove("active"));
+        option.classList.add("active");
+        loadModel(option.dataset.model);
+    });
+});
+
+showFlavorPrompt();
+
+</script>
+<script src="../Pages/mobnav.js?v=20260323g"></script>
+</body>
+</html>
+

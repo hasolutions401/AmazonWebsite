@@ -1,0 +1,2004 @@
+[
+    {
+        "Category":  "Cigarettes",
+        "Brand":  "Camel Crush",
+        "ItemName":  "menthol",
+        "Price":  15.94,
+        "SourcePage":  "Cigarettes.html"
+    },
+    {
+        "Category":  "Cigarettes",
+        "Brand":  "Crowns",
+        "ItemName":  "Dark Green Kings 100s",
+        "Price":  10.52,
+        "SourcePage":  "Cigarettes.html"
+    },
+    {
+        "Category":  "Cigarettes",
+        "Brand":  "Crowns",
+        "ItemName":  "Gold Box 100s",
+        "Price":  10.52,
+        "SourcePage":  "Cigarettes.html"
+    },
+    {
+        "Category":  "Cigarettes",
+        "Brand":  "Crowns",
+        "ItemName":  "Red Box 100s",
+        "Price":  10.52,
+        "SourcePage":  "Cigarettes.html"
+    },
+    {
+        "Category":  "Cigarettes",
+        "Brand":  "L\u0026M",
+        "ItemName":  "Green 100s",
+        "Price":  14.88,
+        "SourcePage":  "Cigarettes.html"
+    },
+    {
+        "Category":  "Cigarettes",
+        "Brand":  "L\u0026M",
+        "ItemName":  "Red 100s",
+        "Price":  14.88,
+        "SourcePage":  "Cigarettes.html"
+    },
+    {
+        "Category":  "Cigarettes",
+        "Brand":  "Marlboro",
+        "ItemName":  "72 Green Menthol",
+        "Price":  16.58,
+        "SourcePage":  "Cigarettes.html"
+    },
+    {
+        "Category":  "Cigarettes",
+        "Brand":  "Marlboro",
+        "ItemName":  "Gold 100s",
+        "Price":  16.58,
+        "SourcePage":  "Cigarettes.html"
+    },
+    {
+        "Category":  "Cigarettes",
+        "Brand":  "Marlboro",
+        "ItemName":  "Menthol Black",
+        "Price":  16.58,
+        "SourcePage":  "Cigarettes.html"
+    },
+    {
+        "Category":  "Cigarettes",
+        "Brand":  "Marlboro",
+        "ItemName":  "Menthol Gold 100s",
+        "Price":  16.58,
+        "SourcePage":  "Cigarettes.html"
+    },
+    {
+        "Category":  "Cigarettes",
+        "Brand":  "Marlboro",
+        "ItemName":  "Menthol Smooth 100s",
+        "Price":  17.01,
+        "SourcePage":  "Cigarettes.html"
+    },
+    {
+        "Category":  "Cigarettes",
+        "Brand":  "Marlboro",
+        "ItemName":  "Red 100s",
+        "Price":  16.58,
+        "SourcePage":  "Cigarettes.html"
+    },
+    {
+        "Category":  "Cigarettes",
+        "Brand":  "Marlboro",
+        "ItemName":  "Smooth Fresh Menthol",
+        "Price":  16.58,
+        "SourcePage":  "Cigarettes.html"
+    },
+    {
+        "Category":  "Cigarettes",
+        "Brand":  "Maverick",
+        "ItemName":  "Gold 100s",
+        "Price":  14.88,
+        "SourcePage":  "Cigarettes.html"
+    },
+    {
+        "Category":  "Cigarettes",
+        "Brand":  "Maverick",
+        "ItemName":  "Menthol 100s",
+        "Price":  14.88,
+        "SourcePage":  "Cigarettes.html"
+    },
+    {
+        "Category":  "Cigarettes",
+        "Brand":  "Maverick",
+        "ItemName":  "Red 100s",
+        "Price":  14.88,
+        "SourcePage":  "Cigarettes.html"
+    },
+    {
+        "Category":  "Cigarettes",
+        "Brand":  "Natural American Spirit",
+        "ItemName":  "Blue",
+        "Price":  17.01,
+        "SourcePage":  "Cigarettes.html"
+    },
+    {
+        "Category":  "Cigarettes",
+        "Brand":  "Natural American Spirit",
+        "ItemName":  "Dark Green",
+        "Price":  17.01,
+        "SourcePage":  "Cigarettes.html"
+    },
+    {
+        "Category":  "Cigarettes",
+        "Brand":  "Natural American Spirit",
+        "ItemName":  "Turquoise",
+        "Price":  17.01,
+        "SourcePage":  "Cigarettes.html"
+    },
+    {
+        "Category":  "Cigarettes",
+        "Brand":  "Natural American Spirit",
+        "ItemName":  "Yellow",
+        "Price":  17.01,
+        "SourcePage":  "Cigarettes.html"
+    },
+    {
+        "Category":  "Cigarettes",
+        "Brand":  "Newport",
+        "ItemName":  "Menthol 100s",
+        "Price":  16.26,
+        "SourcePage":  "Cigarettes.html"
+    },
+    {
+        "Category":  "Cigarettes",
+        "Brand":  "Newport",
+        "ItemName":  "Menthol Gold 100s",
+        "Price":  16.26,
+        "SourcePage":  "Cigarettes.html"
+    },
+    {
+        "Category":  "Cigarettes",
+        "Brand":  "Newport",
+        "ItemName":  "Non-Menthol Red 100s",
+        "Price":  16.26,
+        "SourcePage":  "Cigarettes.html"
+    },
+    {
+        "Category":  "Cigarettes",
+        "Brand":  "Pall Mall",
+        "ItemName":  "Blue 100s",
+        "Price":  14.35,
+        "SourcePage":  "Cigarettes.html"
+    },
+    {
+        "Category":  "Cigarettes",
+        "Brand":  "Pall Mall",
+        "ItemName":  "Menthol 100s",
+        "Price":  14.35,
+        "SourcePage":  "Cigarettes.html"
+    },
+    {
+        "Category":  "Cigarettes",
+        "Brand":  "Pall Mall",
+        "ItemName":  "Orange",
+        "Price":  14.35,
+        "SourcePage":  "Cigarettes.html"
+    },
+    {
+        "Category":  "Cigarettes",
+        "Brand":  "Pall Mall",
+        "ItemName":  "Red 100s",
+        "Price":  14.35,
+        "SourcePage":  "Cigarettes.html"
+    },
+    {
+        "Category":  "Cigarettes",
+        "Brand":  "Seneca",
+        "ItemName":  "Full Flavor 100s",
+        "Price":  9.88,
+        "SourcePage":  "Cigarettes.html"
+    },
+    {
+        "Category":  "Cigarettes",
+        "Brand":  "Seneca",
+        "ItemName":  "Menthol 100s",
+        "Price":  9.88,
+        "SourcePage":  "Cigarettes.html"
+    },
+    {
+        "Category":  "Cigarettes",
+        "Brand":  "USA Gold",
+        "ItemName":  "Lights 100s",
+        "Price":  12.75,
+        "SourcePage":  "Cigarettes.html"
+    },
+    {
+        "Category":  "Cigarettes",
+        "Brand":  "Winston",
+        "ItemName":  "Tobacco and Water",
+        "Price":  13.45,
+        "SourcePage":  "Cigarettes.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Airis Beast 4K Puffs",
+        "ItemName":  "Banana Ice",
+        "Price":  17.01,
+        "SourcePage":  "Airis.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Airis Beast 4K Puffs",
+        "ItemName":  "Black Ice",
+        "Price":  17.01,
+        "SourcePage":  "Airis.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Airis Beast 4K Puffs",
+        "ItemName":  "Blue Raz",
+        "Price":  17.01,
+        "SourcePage":  "Airis.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Airis Beast 4K Puffs",
+        "ItemName":  "Blueberry Ice",
+        "Price":  17.01,
+        "SourcePage":  "Airis.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Airis Beast 4K Puffs",
+        "ItemName":  "BlueRazz peach",
+        "Price":  17.01,
+        "SourcePage":  null
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Airis Beast 4K Puffs",
+        "ItemName":  "Cherry Kiss",
+        "Price":  17.01,
+        "SourcePage":  "Airis.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Airis Beast 4K Puffs",
+        "ItemName":  "Cool Mint",
+        "Price":  17.01,
+        "SourcePage":  "Airis.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Airis Beast 4K Puffs",
+        "ItemName":  "Grape Soda",
+        "Price":  17.01,
+        "SourcePage":  "Airis.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Airis Beast 4K Puffs",
+        "ItemName":  "Kiwi Strawberry",
+        "Price":  17.01,
+        "SourcePage":  "Airis.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Airis Beast 4K Puffs",
+        "ItemName":  "Lush Ice",
+        "Price":  17.01,
+        "SourcePage":  "Airis.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Airis Beast 4K Puffs",
+        "ItemName":  "Mango Peach Ice",
+        "Price":  17.01,
+        "SourcePage":  "Airis.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Airis Beast 4K Puffs",
+        "ItemName":  "Miami Mint",
+        "Price":  17.01,
+        "SourcePage":  "Airis.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Airis Beast 4K Puffs",
+        "ItemName":  "Peach Ice",
+        "Price":  17.01,
+        "SourcePage":  "Airis.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Airis Beast 4K Puffs",
+        "ItemName":  "Peach Mango ice",
+        "Price":  17.01,
+        "SourcePage":  null
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Airis Beast 4K Puffs",
+        "ItemName":  "Polar Ice",
+        "Price":  17.01,
+        "SourcePage":  "Airis.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Airis Beast 4K Puffs",
+        "ItemName":  "Rainbow Candy",
+        "Price":  17.01,
+        "SourcePage":  "Airis.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Airis Beast 4K Puffs",
+        "ItemName":  "Kiwi Passion fruit Guava",
+        "Price":  17.01,
+        "SourcePage":  "Airis.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Airis Beast 4K Puffs",
+        "ItemName":  "Raz Currant Ice",
+        "Price":  17.01,
+        "SourcePage":  "Airis.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Airis Beast 4K Puffs",
+        "ItemName":  "Sour Apple",
+        "Price":  17.01,
+        "SourcePage":  "Airis.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Airis Beast 4K Puffs",
+        "ItemName":  "Strawberry Banana",
+        "Price":  17.01,
+        "SourcePage":  "Airis.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Airis Beast 4K Puffs",
+        "ItemName":  "Strawberry Coconut",
+        "Price":  17.01,
+        "SourcePage":  "Airis.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Airis Beast 4K Puffs",
+        "ItemName":  "Strawberry Ice",
+        "Price":  17.01,
+        "SourcePage":  "Airis.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Airis Beast 4K Puffs",
+        "ItemName":  "Strawberry Watermelon",
+        "Price":  17.01,
+        "SourcePage":  "Airis.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Airis Beast 4K Puffs",
+        "ItemName":  "Tropical Fruit",
+        "Price":  17.01,
+        "SourcePage":  "Airis.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Airis Beast 4K Puffs",
+        "ItemName":  "VIP",
+        "Price":  17.01,
+        "SourcePage":  "Airis.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Finest Champs Vape",
+        "ItemName":  "Lush Ice",
+        "Price":  18.07,
+        "SourcePage":  "finestchamp.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Finest Champs Vape",
+        "ItemName":  "Mango Passion Fruit Guava",
+        "Price":  18.07,
+        "SourcePage":  "finestchamp.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Foger Switch Pro 30,000 Puffs",
+        "ItemName":  "Blue Razz Ice",
+        "Price":  29.77,
+        "SourcePage":  "Foger.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Foger Switch Pro 30,000 Puffs",
+        "ItemName":  "Cool Mint",
+        "Price":  29.77,
+        "SourcePage":  "Foger.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Foger Switch Pro 30,000 Puffs",
+        "ItemName":  "Dragon Fruit Lemonade",
+        "Price":  29.77,
+        "SourcePage":  "Foger.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Foger Switch Pro 30,000 Puffs",
+        "ItemName":  "Gummy Bear",
+        "Price":  29.77,
+        "SourcePage":  "Foger.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Foger Switch Pro 30,000 Puffs",
+        "ItemName":  "Kiwi Dragon Berry",
+        "Price":  29.77,
+        "SourcePage":  "Foger.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Foger Switch Pro 30,000 Puffs",
+        "ItemName":  "Mexico Mango",
+        "Price":  29.77,
+        "SourcePage":  "Foger.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Foger Switch Pro 30,000 Puffs",
+        "ItemName":  "Miami Mint",
+        "Price":  29.77,
+        "SourcePage":  "Foger.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Foger Switch Pro 30,000 Puffs",
+        "ItemName":  "Strawberry B-Pop",
+        "Price":  29.77,
+        "SourcePage":  "Foger.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Foger Switch Pro 30,000 Puffs",
+        "ItemName":  "Strawberry B-Pop",
+        "Price":  29.77,
+        "SourcePage":  "Foger.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Foger Switch Pro 30,000 Puffs",
+        "ItemName":  "Strawberry Ice",
+        "Price":  29.77,
+        "SourcePage":  "Foger.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Foger Switch Pro 30,000 Puffs",
+        "ItemName":  "Strawberry Kiwi",
+        "Price":  29.77,
+        "SourcePage":  "Foger.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Foger Switch Pro 30,000 Puffs",
+        "ItemName":  "Strawberry Watermelon",
+        "Price":  29.77,
+        "SourcePage":  "Foger.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Foger Switch Pro 30,000 Puffs",
+        "ItemName":  "White Gummy",
+        "Price":  29.77,
+        "SourcePage":  "Foger.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Funky Disposable",
+        "ItemName":  "Blossom Mint",
+        "Price":  15.94,
+        "SourcePage":  "funky.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Funky Disposable",
+        "ItemName":  "Ice Mint",
+        "Price":  15.94,
+        "SourcePage":  "funky.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Funky Disposable",
+        "ItemName":  "Melon Berry Bomb Ice",
+        "Price":  15.94,
+        "SourcePage":  "funky.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Funky Disposable",
+        "ItemName":  "OSK Ice",
+        "Price":  15.94,
+        "SourcePage":  "funky.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Funky Disposable",
+        "ItemName":  "Peach Pie",
+        "Price":  15.94,
+        "SourcePage":  "funky.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Funky Disposable",
+        "ItemName":  "Pomelo Pearl Grape",
+        "Price":  15.94,
+        "SourcePage":  "funky.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Funky Disposable",
+        "ItemName":  "Strawberry Banana",
+        "Price":  15.94,
+        "SourcePage":  "funky.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Funky Disposable",
+        "ItemName":  "Strawberry Duo Ice",
+        "Price":  15.94,
+        "SourcePage":  "funky.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Geek Bar Pulse Disposable",
+        "ItemName":  "Banana Taffy Freeze",
+        "Price":  29.77,
+        "SourcePage":  "GKP.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Geek Bar Pulse Disposable",
+        "ItemName":  "Black Cherry",
+        "Price":  29.77,
+        "SourcePage":  "GKP.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Geek Bar Pulse Disposable",
+        "ItemName":  "Blackberry B-Burst",
+        "Price":  29.77,
+        "SourcePage":  "GKP.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Geek Bar Pulse Disposable",
+        "ItemName":  "Blue Razz Ice",
+        "Price":  29.77,
+        "SourcePage":  "GKP.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Geek Bar Pulse Disposable",
+        "ItemName":  "Blueberry Jam",
+        "Price":  29.77,
+        "SourcePage":  "GKP.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Geek Bar Pulse Disposable",
+        "ItemName":  "Blueberry Raspberry Ice",
+        "Price":  29.77,
+        "SourcePage":  "GKP.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Geek Bar Pulse Disposable",
+        "ItemName":  "California Cherry",
+        "Price":  29.77,
+        "SourcePage":  "GKP.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Geek Bar Pulse X Disposable",
+        "ItemName":  "Cool Mint",
+        "Price":  29.77,
+        "SourcePage":  "GKP.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Geek Bar Pulse X Disposable",
+        "ItemName":  "Cool Mint",
+        "Price":  31.89,
+        "SourcePage":  "GKP.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Geek Bar Pulse X Disposable",
+        "ItemName":  "Dragon Melon",
+        "Price":  31.89,
+        "SourcePage":  "GKP.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Geek Bar Pulse X Disposable",
+        "ItemName":  "FCUKING FAB",
+        "Price":  31.89,
+        "SourcePage":  "GKP.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Geek Bar Pulse X Disposable",
+        "ItemName":  "Frozen Pina Colada",
+        "Price":  31.89,
+        "SourcePage":  "GKP.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Geek Bar Pulse X Disposable",
+        "ItemName":  "Grape B-Burst",
+        "Price":  31.89,
+        "SourcePage":  "GKP.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Geek Bar Pulse X Disposable",
+        "ItemName":  "Juicy Peach Ice",
+        "Price":  31.89,
+        "SourcePage":  "GKP.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Geek Bar Pulse X Disposable",
+        "ItemName":  "Meta Moon",
+        "Price":  31.89,
+        "SourcePage":  "GKP.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Geek Bar Pulse X Disposable",
+        "ItemName":  "Mexico Mango",
+        "Price":  31.89,
+        "SourcePage":  "GKP.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Geek Bar Pulse X Disposable",
+        "ItemName":  "Miami Mint",
+        "Price":  31.89,
+        "SourcePage":  "GKP.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Geek Bar Pulse X Disposable",
+        "ItemName":  "Miami Mint",
+        "Price":  31.89,
+        "SourcePage":  "GKP.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Geek Bar Pulse X Disposable",
+        "ItemName":  "Orange Dragon",
+        "Price":  31.89,
+        "SourcePage":  "GKP.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Geek Bar Pulse X Disposable",
+        "ItemName":  "Orange Fcuking Fab",
+        "Price":  31.89,
+        "SourcePage":  "GKP.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Geek Bar Pulse X Disposable",
+        "ItemName":  "Orange Slush",
+        "Price":  31.89,
+        "SourcePage":  "GKP.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Geek Bar Pulse X Disposable",
+        "ItemName":  "Peach Perfect Slush",
+        "Price":  31.89,
+        "SourcePage":  "GKP.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Geek Bar Pulse X Disposable",
+        "ItemName":  "Pear of Thieves",
+        "Price":  31.89,
+        "SourcePage":  "GKP.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Geek Bar Pulse X Disposable",
+        "ItemName":  "Pineapple Savers",
+        "Price":  31.89,
+        "SourcePage":  "GKP.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Geek Bar Pulse X Disposable",
+        "ItemName":  "Pink \u0026 Blue",
+        "Price":  31.89,
+        "SourcePage":  "GKP.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Geek Bar Pulse X Disposable",
+        "ItemName":  "Pink Lemonade",
+        "Price":  31.89,
+        "SourcePage":  "GKP.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Geek Bar Pulse X Disposable",
+        "ItemName":  "Raspberry Jam",
+        "Price":  31.89,
+        "SourcePage":  "GKP.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Geek Bar Pulse X Disposable",
+        "ItemName":  "Raspberry Peach Lime",
+        "Price":  31.89,
+        "SourcePage":  "GKP.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Geek Bar Pulse X Disposable",
+        "ItemName":  "Sour Apple Ice",
+        "Price":  31.89,
+        "SourcePage":  "GKP.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Geek Bar Pulse X Disposable",
+        "ItemName":  "Sour Apple Ice",
+        "Price":  31.89,
+        "SourcePage":  "GKP.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Geek Bar Pulse X Disposable",
+        "ItemName":  "Sour Blue Dust",
+        "Price":  31.89,
+        "SourcePage":  "GKP.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Geek Bar Pulse X Disposable",
+        "ItemName":  "Sour Fcuking Fab",
+        "Price":  31.89,
+        "SourcePage":  "GKP.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Geek Bar Pulse X Disposable",
+        "ItemName":  "Sour Straws",
+        "Price":  31.89,
+        "SourcePage":  "GKP.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Geek Bar Pulse X Disposable",
+        "ItemName":  "Strawberry B-Burst",
+        "Price":  31.89,
+        "SourcePage":  "GKP.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Geek Bar Pulse X Disposable",
+        "ItemName":  "Strawberry Colada",
+        "Price":  31.89,
+        "SourcePage":  "GKP.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Geek Bar Pulse X Disposable",
+        "ItemName":  "Strawberry Ice",
+        "Price":  31.89,
+        "SourcePage":  "GKP.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Geek Bar Pulse X Disposable",
+        "ItemName":  "Strawberry Savers",
+        "Price":  31.89,
+        "SourcePage":  "GKP.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Geek Bar Pulse X Disposable",
+        "ItemName":  "Strawberry Watermelon Banana",
+        "Price":  31.89,
+        "SourcePage":  "GKP.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Geek Bar Pulse X Disposable",
+        "ItemName":  "Watermelon Ice",
+        "Price":  31.89,
+        "SourcePage":  "GKP.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Geek Bar Pulse X Disposable",
+        "ItemName":  "White Gummy Ice",
+        "Price":  31.89,
+        "SourcePage":  "GKP.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Geek Bar Pulse X Disposable",
+        "ItemName":  "White Peach Raspberry",
+        "Price":  31.89,
+        "SourcePage":  "GKP.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Geek Bar Pulse X Disposable",
+        "ItemName":  "Wild Berry Savers",
+        "Price":  31.89,
+        "SourcePage":  "GKP.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Glamee Disposable",
+        "ItemName":  "Blueberry Blackcurrant",
+        "Price":  17.01,
+        "SourcePage":  "glamee.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Glamee Disposable",
+        "ItemName":  "Cotton Ice",
+        "Price":  17.01,
+        "SourcePage":  "glamee.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Glamee Disposable",
+        "ItemName":  "Mango Mojito",
+        "Price":  17.01,
+        "SourcePage":  "glamee.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Glamee Disposable",
+        "ItemName":  "Melon Ice",
+        "Price":  17.01,
+        "SourcePage":  "glamee.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Glamee Disposable",
+        "ItemName":  "Mixed Oranges",
+        "Price":  17.01,
+        "SourcePage":  "glamee.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Glamee Disposable",
+        "ItemName":  "Peach Ice",
+        "Price":  17.01,
+        "SourcePage":  "glamee.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Glamee Disposable",
+        "ItemName":  "Peach Mango Watermelon",
+        "Price":  17.01,
+        "SourcePage":  "glamee.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Glamee Disposable",
+        "ItemName":  "Raspberry Peach",
+        "Price":  17.01,
+        "SourcePage":  "glamee.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Glamee Disposable",
+        "ItemName":  "Watermelon Chew",
+        "Price":  17.01,
+        "SourcePage":  "glamee.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Lucky Wolf Disposable Pod",
+        "ItemName":  "Juicy Peach Ice",
+        "Price":  21.26,
+        "SourcePage":  "luckywolf.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Lucky Wolf Disposable Pod",
+        "ItemName":  "Sour Apple Ice",
+        "Price":  21.26,
+        "SourcePage":  "luckywolf.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Off Stamp Disposable",
+        "ItemName":  "California Cherry",
+        "Price":  14.88,
+        "SourcePage":  "offstamp.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Off Stamp Disposable",
+        "ItemName":  "Cherry Strazz",
+        "Price":  14.88,
+        "SourcePage":  "offstamp.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Off Stamp Disposable",
+        "ItemName":  "Juicy Peach",
+        "Price":  14.88,
+        "SourcePage":  "offstamp.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Other Disposable Vapes",
+        "ItemName":  "Berry Mint",
+        "Price":  17.99,
+        "SourcePage":  "otherdisposiblevapes.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Other Disposable Vapes",
+        "ItemName":  "Black Ice",
+        "Price":  17.99,
+        "SourcePage":  "otherdisposiblevapes.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Other Disposable Vapes",
+        "ItemName":  "Blue Razz Lemonade",
+        "Price":  17.99,
+        "SourcePage":  "otherdisposiblevapes.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Other Disposable Vapes",
+        "ItemName":  "Clear 2.8%",
+        "Price":  14.99,
+        "SourcePage":  "otherdisposiblevapes.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Other Disposable Vapes",
+        "ItemName":  "Clear 5%",
+        "Price":  14.99,
+        "SourcePage":  "otherdisposiblevapes.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Other Disposable Vapes",
+        "ItemName":  "Forest Mint",
+        "Price":  17.99,
+        "SourcePage":  "otherdisposiblevapes.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Other Disposable Vapes",
+        "ItemName":  "Fuji Apple Peach Gummy",
+        "Price":  17.99,
+        "SourcePage":  "otherdisposiblevapes.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Other Disposable Vapes",
+        "ItemName":  "Gum Flavour",
+        "Price":  17.99,
+        "SourcePage":  "otherdisposiblevapes.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Other Disposable Vapes",
+        "ItemName":  "Menthol",
+        "Price":  17.99,
+        "SourcePage":  "otherdisposiblevapes.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Other Disposable Vapes",
+        "ItemName":  "Orange Lime Ice",
+        "Price":  17.99,
+        "SourcePage":  "otherdisposiblevapes.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Other Disposable Vapes",
+        "ItemName":  "Passion Fruit Orange Guava",
+        "Price":  17.99,
+        "SourcePage":  "otherdisposiblevapes.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Other Disposable Vapes",
+        "ItemName":  "Strawberry Watermelon Lemon",
+        "Price":  17.99,
+        "SourcePage":  "otherdisposiblevapes.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Oxbar Magic Maze Pro",
+        "ItemName":  "Blue Razz Lolly",
+        "Price":  27.64,
+        "SourcePage":  "Oxbar.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Oxbar Magic Maze Pro",
+        "ItemName":  "Peach Ringz",
+        "Price":  27.64,
+        "SourcePage":  "Oxbar.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Oxbar Magic Maze Pro",
+        "ItemName":  "Pink Strawberry Burst",
+        "Price":  27.64,
+        "SourcePage":  "Oxbar.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Oxbar Magic Maze Pro",
+        "ItemName":  "Strawberry Watermelon Dragon Fruit",
+        "Price":  27.64,
+        "SourcePage":  "Oxbar.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Oxbar Magic Maze Pro",
+        "ItemName":  "Wap Drops",
+        "Price":  27.64,
+        "SourcePage":  "Oxbar.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Oxbar Magic Maze Pro",
+        "ItemName":  "Watermelon Savage Patch",
+        "Price":  27.64,
+        "SourcePage":  "Oxbar.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Oxbar Magic Maze Pro",
+        "ItemName":  "Winter Mint",
+        "Price":  27.64,
+        "SourcePage":  "Oxbar.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Raz 25K Puffs Disposable",
+        "ItemName":  "Alaskan Mint",
+        "Price":  29.77,
+        "SourcePage":  "Raz.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Raz 25K Puffs Disposable",
+        "ItemName":  "Blue Raz Bliss",
+        "Price":  29.77,
+        "SourcePage":  "Raz.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Raz 25K Puffs Disposable",
+        "ItemName":  "Blueberry Punch",
+        "Price":  29.77,
+        "SourcePage":  "Raz.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Raz 25K Puffs Disposable",
+        "ItemName":  "Frozen Juicy Strawberry",
+        "Price":  29.77,
+        "SourcePage":  "Raz.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Raz 25K Puffs Disposable",
+        "ItemName":  "Grape Tease",
+        "Price":  29.77,
+        "SourcePage":  "Raz.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Raz 25K Puffs Disposable",
+        "ItemName":  "Lemon Lime",
+        "Price":  29.77,
+        "SourcePage":  "Raz.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Raz 25K Puffs Disposable",
+        "ItemName":  "Miami Mint",
+        "Price":  29.77,
+        "SourcePage":  "Raz.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Raz 25K Puffs Disposable",
+        "ItemName":  "Orange Mango",
+        "Price":  29.77,
+        "SourcePage":  "Raz.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Raz 25K Puffs Disposable",
+        "ItemName":  "Orange Pineapple Punch",
+        "Price":  29.77,
+        "SourcePage":  "Raz.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Raz 25K Puffs Disposable",
+        "ItemName":  "Peach Baddie",
+        "Price":  29.77,
+        "SourcePage":  "Raz.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Raz 25K Puffs Disposable",
+        "ItemName":  "Peach Passionfruit",
+        "Price":  29.77,
+        "SourcePage":  "Raz.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Raz 25K Puffs Disposable",
+        "ItemName":  "Peach Pear",
+        "Price":  29.77,
+        "SourcePage":  "Raz.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Raz 25K Puffs Disposable",
+        "ItemName":  "Pink Lemonade Minty O\u0027s",
+        "Price":  29.77,
+        "SourcePage":  "Raz.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Raz 25K Puffs Disposable",
+        "ItemName":  "Pretty In Pink",
+        "Price":  29.77,
+        "SourcePage":  "Raz.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Raz 25K Puffs Disposable",
+        "ItemName":  "Strawberry Orange Tang",
+        "Price":  29.77,
+        "SourcePage":  "Raz.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Raz 25K Puffs Disposable",
+        "ItemName":  "Triple Berry",
+        "Price":  29.77,
+        "SourcePage":  "Raz.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Raz 25K Puffs Disposable",
+        "ItemName":  "Triple Berry Gush",
+        "Price":  29.77,
+        "SourcePage":  "Raz.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Raz 25K Puffs Disposable",
+        "ItemName":  "Triple Berry Punch",
+        "Price":  29.77,
+        "SourcePage":  "Raz.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Raz 25K Puffs Disposable",
+        "ItemName":  "Tropical Gush",
+        "Price":  29.77,
+        "SourcePage":  "Raz.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Raz 25K Puffs Disposable",
+        "ItemName":  "White Yummy Ice",
+        "Price":  29.77,
+        "SourcePage":  "Raz.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Raz 25K Puffs Disposable",
+        "ItemName":  "Wild Berry Dew",
+        "Price":  29.77,
+        "SourcePage":  "Raz.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Raz 25K Puffs Disposable",
+        "ItemName":  "Wintergreen",
+        "Price":  29.77,
+        "SourcePage":  "Raz.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Spaceman Smart Screen",
+        "ItemName":  "Apple Kiwi Ice",
+        "Price":  21.26,
+        "SourcePage":  "spaceman.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Spaceman Smart Screen",
+        "ItemName":  "Dark Grapefruit",
+        "Price":  21.26,
+        "SourcePage":  "spaceman.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Spaceman Smart Screen",
+        "ItemName":  "Pineapple Watermelon",
+        "Price":  21.26,
+        "SourcePage":  "spaceman.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Spaceman Smart Screen",
+        "ItemName":  "Strawberry Mini Candy",
+        "Price":  21.26,
+        "SourcePage":  "spaceman.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Sugar Daddy Disposable",
+        "ItemName":  "Arabian Nights Lush Ice",
+        "Price":  13.99,
+        "SourcePage":  "sugardaddy.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Sugar Daddy Disposable",
+        "ItemName":  "Colombian Mint",
+        "Price":  13.99,
+        "SourcePage":  "sugardaddy.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Sugar Daddy Disposable",
+        "ItemName":  "Miami Mint",
+        "Price":  13.99,
+        "SourcePage":  "sugardaddy.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Swift ICON Disposable",
+        "ItemName":  "Lemon Mist Ice",
+        "Price":  14.88,
+        "SourcePage":  "swfticon.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Swift ICON Disposable",
+        "ItemName":  "Tropical Blend",
+        "Price":  14.88,
+        "SourcePage":  "swfticon.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Swift ICON Disposable",
+        "ItemName":  "White Gyummy",
+        "Price":  14.88,
+        "SourcePage":  "swfticon.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Tyson 2.0 Iron Mike Disposable",
+        "ItemName":  "Blue Raz",
+        "Price":  29.77,
+        "SourcePage":  "Tyson.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Tyson 2.0 Iron Mike Disposable",
+        "ItemName":  "Cool Mint",
+        "Price":  29.77,
+        "SourcePage":  "Tyson.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Tyson 2.0 Iron Mike Disposable",
+        "ItemName":  "Frozen Blueberry",
+        "Price":  29.77,
+        "SourcePage":  "Tyson.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Tyson 2.0 Iron Mike Disposable",
+        "ItemName":  "Frozen Grape",
+        "Price":  29.77,
+        "SourcePage":  "Tyson.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Tyson 2.0 Iron Mike Disposable",
+        "ItemName":  "Frozen Mango",
+        "Price":  29.77,
+        "SourcePage":  "Tyson.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Tyson 2.0 Iron Mike Disposable",
+        "ItemName":  "Green Apple",
+        "Price":  29.77,
+        "SourcePage":  "Tyson.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "UPENDS CD30000",
+        "ItemName":  "Cool Mint",
+        "Price":  25.51,
+        "SourcePage":  "Upends.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "UPENDS CD30000",
+        "ItemName":  "Grape Ice",
+        "Price":  25.51,
+        "SourcePage":  "Upends.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "UPENDS CD30000",
+        "ItemName":  "Watermelon Ice",
+        "Price":  25.51,
+        "SourcePage":  "Upends.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Viho Turbo Disposable",
+        "ItemName":  "Banana Ice (Gimi 30k)",
+        "Price":  30.83,
+        "SourcePage":  "viho.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Viho Turbo Disposable",
+        "ItemName":  "Banana Icy",
+        "Price":  30.83,
+        "SourcePage":  "viho.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Viho Turbo Disposable",
+        "ItemName":  "Banana Taffy Ice",
+        "Price":  30.83,
+        "SourcePage":  "viho.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Viho Turbo Disposable",
+        "ItemName":  "Blue Razz Ice",
+        "Price":  30.83,
+        "SourcePage":  "viho.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Viho Turbo Disposable",
+        "ItemName":  "California Cherry (Gimi 30k)",
+        "Price":  30.83,
+        "SourcePage":  "viho.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Viho Turbo Disposable",
+        "ItemName":  "Frozen Nana",
+        "Price":  30.83,
+        "SourcePage":  "viho.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Viho Turbo Disposable",
+        "ItemName":  "Grape Ice",
+        "Price":  30.83,
+        "SourcePage":  "viho.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Viho Turbo Disposable",
+        "ItemName":  "Miami Mint",
+        "Price":  30.83,
+        "SourcePage":  "viho.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Viho Turbo Disposable",
+        "ItemName":  "Orange Splash",
+        "Price":  30.83,
+        "SourcePage":  "viho.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Viho Turbo Disposable",
+        "ItemName":  "Strawberry Cheesecake",
+        "Price":  30.83,
+        "SourcePage":  "viho.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Viho Turbo Disposable",
+        "ItemName":  "Tobacco (Gimi 30k)",
+        "Price":  30.83,
+        "SourcePage":  "viho.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Viho Turbo Disposable",
+        "ItemName":  "Tropical Melon",
+        "Price":  30.83,
+        "SourcePage":  "viho.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Viho Turbo Disposable",
+        "ItemName":  "Virginia Tobacco",
+        "Price":  30.83,
+        "SourcePage":  "viho.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Yovo Ultra 18,000 Puffs",
+        "ItemName":  "Fuji Peach",
+        "Price":  15.94,
+        "SourcePage":  "Yovo.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Yovo Ultra 18,000 Puffs",
+        "ItemName":  "Miami Mint",
+        "Price":  17.99,
+        "SourcePage":  "Yovo.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Yovo Ultra 18,000 Puffs",
+        "ItemName":  "Peach Ice",
+        "Price":  17.99,
+        "SourcePage":  "Yovo.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Yovo Ultra 18,000 Puffs",
+        "ItemName":  "Root Beer",
+        "Price":  17.99,
+        "SourcePage":  "Yovo.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Zero Nicotine Disposable",
+        "ItemName":  "Clear 0% (4500 Puffs)",
+        "Price":  14.99,
+        "SourcePage":  "zeronicotine.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Zero Nicotine Disposable",
+        "ItemName":  "Cool Mint (0% Nicotine)",
+        "Price":  14.99,
+        "SourcePage":  "zeronicotine.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Zero Nicotine Disposable",
+        "ItemName":  "Ice Watermelon (0%)",
+        "Price":  14.99,
+        "SourcePage":  "zeronicotine.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Zero Nicotine Disposable",
+        "ItemName":  "Strawberry Banana (0%)",
+        "Price":  14.99,
+        "SourcePage":  "zeronicotine.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Zero Nicotine Disposable RAZ",
+        "ItemName":  "Peach Pear 6000 puff",
+        "Price":  14.88,
+        "SourcePage":  null
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Zero Nicotine Disposable RAZ",
+        "ItemName":  "Alaskan Mint 6000 puff",
+        "Price":  14.88,
+        "SourcePage":  null
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Zero Nicotine Disposable RAZ",
+        "ItemName":  "Miami Mint 9000 Puff",
+        "Price":  29.77,
+        "SourcePage":  null
+    },
+    {
+        "Category":  "Nicotine Pouches",
+        "Brand":  "Sesh+ Nicotine Pouches",
+        "ItemName":  "Sesh+ Cappuccino",
+        "Price":  7.43,
+        "SourcePage":  "sesh.html"
+    },
+    {
+        "Category":  "Nicotine Pouches",
+        "Brand":  "Sesh+ Nicotine Pouches",
+        "ItemName":  "Sesh+ Clear",
+        "Price":  7.43,
+        "SourcePage":  "sesh.html"
+    },
+    {
+        "Category":  "Nicotine Pouches",
+        "Brand":  "Sesh+ Nicotine Pouches",
+        "ItemName":  "Sesh+ Mango",
+        "Price":  7.43,
+        "SourcePage":  "sesh.html"
+    },
+    {
+        "Category":  "Nicotine Pouches",
+        "Brand":  "Sesh+ Nicotine Pouches",
+        "ItemName":  "Sesh+ Wintergreen",
+        "Price":  7.43,
+        "SourcePage":  "sesh.html"
+    },
+    {
+        "Category":  "Nicotine Pouches",
+        "Brand":  "Skoal Smokeless Tobacco",
+        "ItemName":  "Skoal Classic Mint Long Cut",
+        "Price":  8.5,
+        "SourcePage":  "skoal.html"
+    },
+    {
+        "Category":  "Nicotine Pouches",
+        "Brand":  "Skoal Smokeless Tobacco",
+        "ItemName":  "Skoal Classic Wintergreen Long Cut",
+        "Price":  8.5,
+        "SourcePage":  "skoal.html"
+    },
+    {
+        "Category":  "Nicotine Pouches",
+        "Brand":  "ZYN Nicotine Pouches",
+        "ItemName":  "ZYN Apple Mint Mini Dry",
+        "Price":  7.43,
+        "SourcePage":  "zyn.html"
+    },
+    {
+        "Category":  "Nicotine Pouches",
+        "Brand":  "ZYN Nicotine Pouches",
+        "ItemName":  "ZYN Chill (3mg)",
+        "Price":  7.43,
+        "SourcePage":  "zyn.html"
+    },
+    {
+        "Category":  "Nicotine Pouches",
+        "Brand":  "ZYN Nicotine Pouches",
+        "ItemName":  "ZYN Cinnamon",
+        "Price":  7.43,
+        "SourcePage":  "zyn.html"
+    },
+    {
+        "Category":  "Nicotine Pouches",
+        "Brand":  "ZYN Nicotine Pouches",
+        "ItemName":  "ZYN Citrus",
+        "Price":  7.43,
+        "SourcePage":  "zyn.html"
+    },
+    {
+        "Category":  "Nicotine Pouches",
+        "Brand":  "ZYN Nicotine Pouches",
+        "ItemName":  "ZYN Cool Mint",
+        "Price":  7.43,
+        "SourcePage":  "zyn.html"
+    },
+    {
+        "Category":  "Nicotine Pouches",
+        "Brand":  "ZYN Nicotine Pouches",
+        "ItemName":  "ZYN Cool Mint MAX",
+        "Price":  9.56,
+        "SourcePage":  null
+    },
+    {
+        "Category":  "Nicotine Pouches",
+        "Brand":  "ZYN Nicotine Pouches",
+        "ItemName":  "ZYN Mojito",
+        "Price":  7.43,
+        "SourcePage":  "zyn.html"
+    },
+    {
+        "Category":  "Nicotine Pouches",
+        "Brand":  "ZYN Nicotine Pouches",
+        "ItemName":  "ZYN Peppermint",
+        "Price":  7.43,
+        "SourcePage":  "zyn.html"
+    },
+    {
+        "Category":  "Nicotine Pouches",
+        "Brand":  "ZYN Nicotine Pouches",
+        "ItemName":  "ZYN Smooth",
+        "Price":  7.43,
+        "SourcePage":  "zyn.html"
+    },
+    {
+        "Category":  "Nicotine Pouches",
+        "Brand":  "ZYN Nicotine Pouches",
+        "ItemName":  "ZYN Spearmint",
+        "Price":  7.43,
+        "SourcePage":  "zyn.html"
+    },
+    {
+        "Category":  "Nicotine Pouches",
+        "Brand":  "ZYN Nicotine Pouches",
+        "ItemName":  "ZYN Spearmint Mini Dry",
+        "Price":  7.43,
+        "SourcePage":  "zyn.html"
+    },
+    {
+        "Category":  "Nicotine Pouches",
+        "Brand":  "ZYN Nicotine Pouches",
+        "ItemName":  "ZYN Wintergreen",
+        "Price":  7.43,
+        "SourcePage":  "zyn.html"
+    },
+    {
+        "Category":  "Pod Systems",
+        "Brand":  "JUUL Pod System",
+        "ItemName":  "JUUL Device Silver",
+        "Price":  15.94,
+        "SourcePage":  "juul.html"
+    },
+    {
+        "Category":  "Pod Systems",
+        "Brand":  "JUUL Pod System",
+        "ItemName":  "JUUL Device Slate",
+        "Price":  15.94,
+        "SourcePage":  "juul.html"
+    },
+    {
+        "Category":  "Pod Systems",
+        "Brand":  "JUUL Pod System",
+        "ItemName":  "Menthol 3.0%",
+        "Price":  21.26,
+        "SourcePage":  "juul.html"
+    },
+    {
+        "Category":  "Pod Systems",
+        "Brand":  "JUUL Pod System",
+        "ItemName":  "Menthol 5.0% (2 Pods)",
+        "Price":  17.01,
+        "SourcePage":  "juul.html"
+    },
+    {
+        "Category":  "Pod Systems",
+        "Brand":  "JUUL Pod System",
+        "ItemName":  "Menthol 5.0% (4 Pods)",
+        "Price":  23.39,
+        "SourcePage":  "juul.html"
+    },
+    {
+        "Category":  "Pod Systems",
+        "Brand":  "JUUL Pod System",
+        "ItemName":  "Virginia Tobacco",
+        "Price":  23.39,
+        "SourcePage":  "juul.html"
+    },
+    {
+        "Category":  "Pod Systems",
+        "Brand":  "JUUL Pod System",
+        "ItemName":  "Virginia Tobacco 2 Pods",
+        "Price":  15.94,
+        "SourcePage":  "juul.html"
+    },
+    {
+        "Category":  "Pod Systems",
+        "Brand":  "JUUL Pod System",
+        "ItemName":  "Virginia Tobacco 5.0%",
+        "Price":  23.39,
+        "SourcePage":  "juul.html"
+    },
+    {
+        "Category":  "Pod Systems",
+        "Brand":  "Pod Salt Go Disposable",
+        "ItemName":  "Blue Sour Raspberry",
+        "Price":  31.89,
+        "SourcePage":  "Podsalt.html"
+    },
+    {
+        "Category":  "Pod Systems",
+        "Brand":  "Pod Salt Go Disposable",
+        "ItemName":  "Juicy Peach Ice",
+        "Price":  31.89,
+        "SourcePage":  "Podsalt.html"
+    },
+    {
+        "Category":  "Pod Systems",
+        "Brand":  "Pod Salt Go Disposable",
+        "ItemName":  "Kiwi Passion Lime",
+        "Price":  31.89,
+        "SourcePage":  "Podsalt.html"
+    },
+    {
+        "Category":  "Pod Systems",
+        "Brand":  "Pod Salt Go Disposable",
+        "ItemName":  "Mango Strawberry Peach",
+        "Price":  31.89,
+        "SourcePage":  "Podsalt.html"
+    },
+    {
+        "Category":  "Pod Systems",
+        "Brand":  "Pod Salt Go Disposable",
+        "ItemName":  "Purple Pink Lemonade",
+        "Price":  31.89,
+        "SourcePage":  "Podsalt.html"
+    },
+    {
+        "Category":  "Pod Systems",
+        "Brand":  "Pod Salt Go Disposable",
+        "ItemName":  "Strawberry Watermelon Kiwi",
+        "Price":  31.89,
+        "SourcePage":  "Podsalt.html"
+    },
+    {
+        "Category":  "Pod Systems",
+        "Brand":  "Pod Salt Go Disposable",
+        "ItemName":  "Sweet Strawberry Lemonade",
+        "Price":  31.89,
+        "SourcePage":  "Podsalt.html"
+    },
+    {
+        "Category":  "Pod Systems",
+        "Brand":  "Pod Salt Go Disposable",
+        "ItemName":  "Triple Mango",
+        "Price":  31.89,
+        "SourcePage":  "Podsalt.html"
+    },
+    {
+        "Category":  "Pod Systems",
+        "Brand":  "Pod Salt Go Disposable",
+        "ItemName":  "White Gummy Bear",
+        "Price":  31.89,
+        "SourcePage":  "Podsalt.html"
+    },
+    {
+        "Category":  "Pod Systems",
+        "Brand":  "VUSE Pod System",
+        "ItemName":  "Classic Tobacco 5.0% (4 Pods)",
+        "Price":  27.64,
+        "SourcePage":  "vuse.html"
+    },
+    {
+        "Category":  "Pod Systems",
+        "Brand":  "VUSE Pod System",
+        "ItemName":  "Menthol 2.4% (4 Pods)",
+        "Price":  27.64,
+        "SourcePage":  "vuse.html"
+    },
+    {
+        "Category":  "Pod Systems",
+        "Brand":  "VUSE Pod System",
+        "ItemName":  "Menthol 5.0% (2 Pods)",
+        "Price":  19.13,
+        "SourcePage":  "vuse.html"
+    },
+    {
+        "Category":  "Pod Systems",
+        "Brand":  "VUSE Pod System",
+        "ItemName":  "Menthol 5.0% (4 Pods)",
+        "Price":  27.64,
+        "SourcePage":  "vuse.html"
+    },
+    {
+        "Category":  "Pod Systems",
+        "Brand":  "VUSE Pod System",
+        "ItemName":  "Originals Rich Tobacco",
+        "Price":  21.26,
+        "SourcePage":  "vuse.html"
+    },
+    {
+        "Category":  "Pod Systems",
+        "Brand":  "VUSE Pod System",
+        "ItemName":  "Vuse Alto Device",
+        "Price":  27.64,
+        "SourcePage":  "vuse.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Airis Mega 2000 PUFF",
+        "ItemName":  "Crunberry punch",
+        "Price":  13.81,
+        "SourcePage":  "Airis.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Airis Mega 2000 PUFF",
+        "ItemName":  "Sour apple",
+        "Price":  13.81,
+        "SourcePage":  "Airis.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Airis Mega 2000 PUFF",
+        "ItemName":  "Triple berry ice cream",
+        "Price":  13.81,
+        "SourcePage":  "Airis.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Airis Mega 2000 PUFF",
+        "ItemName":  "Kiwi strawberry ",
+        "Price":  13.81,
+        "SourcePage":  "Airis.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Airis Mega 2000 PUFF",
+        "ItemName":  "Coolmint",
+        "Price":  13.81,
+        "SourcePage":  "Airis.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Airis Mega 2000 PUFF",
+        "ItemName":  "Grape soda",
+        "Price":  13.81,
+        "SourcePage":  "Airis.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Airis Mega 2000 PUFF",
+        "ItemName":  "Lush ice",
+        "Price":  13.81,
+        "SourcePage":  "Airis.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Airis Mega 2000 PUFF",
+        "ItemName":  "Strawberry icecream",
+        "Price":  13.81,
+        "SourcePage":  "Airis.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Airis Mega 2000 PUFF",
+        "ItemName":  "Black ice",
+        "Price":  13.81,
+        "SourcePage":  "Airis.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Airis Mega 2000 PUFF",
+        "ItemName":  "Rasberry lemonade ",
+        "Price":  13.81,
+        "SourcePage":  "Airis.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Airis Mega 2000 PUFF",
+        "ItemName":  "Peach mango watermelon ",
+        "Price":  13.81,
+        "SourcePage":  "Airis.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Airis Mega 2000 PUFF",
+        "ItemName":  "Blueberry ice",
+        "Price":  13.81,
+        "SourcePage":  "Airis.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Airis Mega 2000 PUFF",
+        "ItemName":  "Guava mango",
+        "Price":  13.81,
+        "SourcePage":  "Airis.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Airis Mega 2000 PUFF",
+        "ItemName":  "Rainbow candy",
+        "Price":  13.81,
+        "SourcePage":  "Airis.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Airis Mega 2000 PUFF",
+        "ItemName":  "Strawberry pina colada",
+        "Price":  13.81,
+        "SourcePage":  "Airis.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Airis Mega 2000 PUFF",
+        "ItemName":  "Mango Ice",
+        "Price":  13.81,
+        "SourcePage":  "Airis.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Airis Mega 2000 PUFF",
+        "ItemName":  "Blue raz",
+        "Price":  13.81,
+        "SourcePage":  "Airis.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Airis Mega 2000 PUFF",
+        "ItemName":  "Strawberry banana",
+        "Price":  13.81,
+        "SourcePage":  "Airis.html"
+    },
+    {
+        "Category":  "Disposable Vapes",
+        "Brand":  "Airis Mega 2000 PUFF",
+        "ItemName":  "Banana ice",
+        "Price":  13.81,
+        "SourcePage":  "Airis.html"
+    },
+    {
+        "Category":  "cigerattes",
+        "Brand":  "DJARUM SELECT",
+        "ItemName":  "Filtered Cigar",
+        "Price":  12.75,
+        "SourcePage":  "Cigarettes.html"
+    },
+    {
+        "Category":  "cigerattes",
+        "Brand":  "DJARUM SPLASH",
+        "ItemName":  "Filtered Cigar",
+        "Price":  12.75,
+        "SourcePage":  "Cigarettes.html"
+    },
+    {
+        "Category":  "cigerattes",
+        "Brand":  "DJARUM BLACK",
+        "ItemName":  "Filtered Cigar",
+        "Price":  12.75,
+        "SourcePage":  "Cigarettes.html"
+    },
+    {
+        "Category":  "cigerattes",
+        "Brand":  "Double Diamond",
+        "ItemName":  "Green 100\u0027s",
+        "Price":  3.18,
+        "SourcePage":  "Cigarettes.html"
+    },
+    {
+        "Category":  "cigerattes",
+        "Brand":  "Double Diamond",
+        "ItemName":  "Blue 100\u0027s",
+        "Price":  3.18,
+        "SourcePage":  "Cigarettes.html"
+    },
+    {
+        "Category":  "cigerattes",
+        "Brand":  "Double Diamond",
+        "ItemName":  "Grape 100\u0027s",
+        "Price":  3.18,
+        "SourcePage":  "Cigarettes.html"
+    },
+    {
+        "Category":  "cigerattes",
+        "Brand":  "Double Diamond",
+        "ItemName":  "Black Cherry 100\u0027s",
+        "Price":  3.18,
+        "SourcePage":  "Cigarettes.html"
+    }
+]

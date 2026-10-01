@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sesh+ Nicotine Pouches | Amazon Bazar</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../CSS/zyn.css">
+<link rel="stylesheet" href="../CSS/shared-styles.css">
+<link rel="stylesheet" href="../CSS/mobileresponsive.css">
+<style>
+.sesh-page .product-image{
+background:transparent;
+border-radius:0;
+padding:0;
+display:flex;
+align-items:center;
+justify-content:center;
+width:fit-content;
+max-width:100%;
+}
+
+.sesh-page .product-image img{
+width:auto;
+max-width:100%;
+height:auto;
+max-height:420px;
+object-fit:contain;
+object-position:center;
+border-radius:0;
+box-shadow:none;
+}
+</style>
+</head>
+
+<body class="sesh-page">
+
+<nav>
+<div class="logo">
+<a href="../index.html"><img src="../Images/logo.webp" alt="Logo" loading="lazy" decoding="async"></a>
+</div>
+
+<div class="nav-links">
+
+<div class="dropdown">
+<a href="Disposable-Vapes.html">Disposable Vapes ?</a>
+<div class="dropdown-menu">
+<a href="GKP.html">Geek Bar</a>
+<a href="foger.html">Foger</a>
+<a href="podsalt.html">Pod Salt</a>
+<a href="tyson.html">Tyson</a>
+<a href="oxbar.html">Oxbar</a>
+<a href="upends.html">Upends</a>
+<a href="yovo.html">Yovo</a>
+<a href="raz.html">Raz</a>
+<a href="airis.html">Airis</a>
+</div>
+</div>
+
+<div class="dropdown">
+<a href="Pod-systems.html">Pod System ?</a>
+<div class="dropdown-menu">
+<a href="Pod-systems.html#vuse">VUSE</a>
+<a href="Pod-systems.html#juul">JUUL</a>
+</div>
+</div>
+
+<div class="dropdown">
+<a href="Nicotine-Pouches.html" class="active">Nicotine Pouches ?</a>
+<div class="dropdown-menu">
+<a href="Nicotine-Pouches.html#zyn">ZYN</a>
+<a href="Nicotine-Pouches.html#sesh">Sesh+</a>
+<a href="Nicotine-Pouches.html#skoal">Skoal</a>
+</div>
+</div>
+
+<a href="Cig.html">Cigarettes</a>
+<a href="Cigar.html">Cigars</a>
+<a href="Accessories.html">Hookahs and Accessories</a>
+
+</div>
+</nav>
+
+
+<section class="product-wrapper">
+
+<div class="product-image">
+<img id="mainProductImage" src="../Images/Sesh+.webp" alt="Sesh+ Nicotine Pouches" loading="eager" decoding="async" fetchpriority="high">
+</div>
+
+<div class="product-info">
+<h1>Sesh+ Nicotine Pouches</h1>
+
+<div class="price">$4.49</div>
+
+<div class="stock-status" id="stockStatus">Available In Store</div>
+
+<p class="short-desc">
+            Discreet nicotine format with clean usage, consistent strength options, and dependable in-store availability.
+        </p>
+
+<div class="flavor-section">
+<h3>Flavours Available</h3>
+
+<div class="flavor-grid">
+<div class="flavor-option" data-img="../Images/Nicotine Pouches/sesh cappuccino.webp">Sesh+ Cappuccino</div>
+<div class="flavor-option" data-img="../Images/Nicotine Pouches/sesh clear.webp">Sesh+ Clear</div>
+<div class="flavor-option" data-img="../Images/Nicotine Pouches/Sesh wintergreen.webp">Sesh+ Wintergreen</div>
+<div class="flavor-option" data-img="../Images/Nicotine Pouches/Sesh Mango.webp">Sesh+ Mango</div>
+</div>
+
+</div>
+
+<a href="tel:+18608482345" class="availability-btn">Check Availability</a>
+
+</div>
+</section>
+
+
+<section class="description">
+    <h2>Product Overview</h2>
+    <ul>
+        <li>Smoke-free format offers a cleaner, more discreet daily routine.</li>
+        <li>Multiple strengths and flavor profiles support preference-based choice.</li>
+        <li>Portable cans are easy to carry and practical for regular use.</li>
+        <li>Consistent quality standards help maintain dependable experience.</li>
+        <li>Straightforward pricing keeps product selection simple in store.</li>
+        <li>Live availability updates are available through our call line.</li>
+    </ul>
+</section>
+
+<div class="smoke"></div>
+<a href="tel:+18608482345" class="call-btn">Call Now</a>
+
+<div class="page-footer">
+<a href="Nicotine-Pouches.html" class="direction-button back-home-link">Back to Nicotine Pouches</a>
+</div>
+
+
+<script>
+const options = document.querySelectorAll(".flavor-option");
+const mainImage = document.getElementById("mainProductImage");
+const stockStatus = document.getElementById("stockStatus");
+
+function updateStockUI(isAvailable) {
+if(isAvailable) {
+stockStatus.textContent = "Available In Store";
+stockStatus.className = "stock-status in-stock";
+} else {
+stockStatus.textContent = "Currently Unavailable";
+stockStatus.className = "stock-status out-stock";
+}
+}
+
+options.forEach(option => {
+option.addEventListener("click", () => {
+
+options.forEach(o => o.classList.remove("active"));
+option.classList.add("active");
+
+const newImage = option.getAttribute("data-img");
+
+if(newImage){
+mainImage.style.opacity = "0";
+
+setTimeout(() => {
+mainImage.src = newImage;
+mainImage.style.opacity = "1";
+}, 150);
+}
+
+updateStockUI(true);
+
+});
+});
+
+window.onload = () => {
+if(options.length > 0){
+options[0].click();
+}
+};
+</script>
+<script src="../Pages/mobnav.js?v=20260323g"></script>
+</body>
+</html>

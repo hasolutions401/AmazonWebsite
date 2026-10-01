@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Yovo Ultra Disposable Vape | Amazon Bazar</title>
+    <meta name="description" content="Buy Yovo Ultra disposable vapes at Amazon Bazar Uncasville, CT. Premium device with great flavors.">
+    <meta name="keywords" content="Yovo Ultra, Yovo vape, disposable vape, Uncasville vape">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://amazonbazarct.com/Pages/Yovo.html">
+    <meta property="og:type" content="product">
+    <meta property="og:title" content="Yovo Ultra Disposable Vape | Amazon Bazar">
+    <meta property="og:url" content="https://amazonbazarct.com/Pages/Yovo.html">
+    <meta property="og:image" content="https://amazonbazarct.com/Images/Yovo.webp">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/shared-styles.css">
+    <link rel="stylesheet" href="../CSS/GKP.css">
+    <link rel="stylesheet" href="../CSS/mobileresponsive.css">
+</head>
+
+<body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<main id="main-content">
+<section class="product-wrapper">
+
+   <div class="product-image">
+    <img id="mainProductImage" src="../Images/Yovo.webp" alt="Yovo Disposable" loading="eager" decoding="async" fetchpriority="high">
+</div>
+
+    <div class="product-info">
+        <h1>Yovo Ultra 18,000 Puffs</h1>
+        
+        <div class="price">$18.49</div>
+        
+        <div class="stock-status in-stock" id="stockStatus">
+    Available In Store
+</div>
+
+        <p class="short-desc">
+            Premium disposable device with smooth draw performance, consistent flavor delivery, and dependable in-store availability.
+        </p>
+
+<!-- MODEL SECTION -->
+<div class="flavor-section">
+<h3>Select Model</h3>
+<div class="flavor-grid" id="modelGrid">
+
+<div class="flavor-option" data-model="YOVO Ultra 18000 (Full Screen)">
+YOVO Ã¢â‚¬â€œ Ultra 18000 (Full Screen)
+</div>
+
+<div class="flavor-option" data-model="YOVO JB8000 (8000 Puffs)">
+YOVO JB8000 (8000 Puffs)
+</div>
+
+</div>
+</div>
+
+<!-- FLAVOR SECTION -->
+<div class="flavor-section">
+<h3>Select Flavor</h3>
+<div class="flavor-grid" id="flavorGrid"></div>
+</div>
+
+<a href="tel:+18608482345" class="availability-btn">
+Check Availability
+</a>
+
+</div>
+</section>
+<div class="smoke"></div>
+<a href="tel:+18608482345" class="call-btn" aria-label="Call Amazon Bazar">Call Now</a>
+
+</main>
+
+</section> <!-- product-wrapper end -->
+
+<section class="description">
+    <h2>Professional Overview</h2>
+    <ul>
+        <li>Engineered for consistent flavor delivery from first puff to last.</li>
+        <li>Balanced airflow profile supports a smoother, more controlled draw.</li>
+        <li>Curated flavor lineup designed for repeatable day-to-day satisfaction.</li>
+        <li>Portable build quality makes it practical for regular use on the go.</li>
+        <li>Transparent in-store pricing helps customers compare confidently.</li>
+        <li>Real-time stock support is available through our store call line.</li>
+    </ul>
+</section>
+
+<div class="page-footer">
+    <a href="Disposable-Vapes.html" class="direction-button back-home-link">Back to Disposable Vapes</a>
+</div>
+
+<script>
+
+const productData = {
+
+"YOVO Ultra 18000 (Full Screen)":{
+    variants:{
+        "Peach Ice": {price:17.99, img:"../Images/Yovo/Yovo-18000_Peach-Ice_600x600_0e39614b-d8cb-4796-8f7f-91765ce4f88c.webp", stock:true}
+    }
+},
+
+"YOVO JB8000 (8000 Puffs)":{
+    variants:{
+        "Fuji Peach": {price:15.94, img:"../Images/Yovo/fuji peach yovo jb8000.webp",                                                        stock:true},
+        "Miami Mint": {price:17.99, img:"../Images/Yovo/Yovo-Miami-Mint_Device-With-Icons_600x600_1c37f1d6-9480-40a7-9086-48705801b9d7.webp", stock:true},
+        "Root Beer":  {price:17.99, img:"../Images/Yovo/RootBeer_d3ca5049-4e2d-4e06-b8b9-e88266c6a31f.webp",                                 stock:true}
+    }
+}
+
+};
+const modelOptions = document.querySelectorAll("#modelGrid .flavor-option");
+const flavorGrid = document.getElementById("flavorGrid");
+const mainImage = document.getElementById("mainProductImage");
+const priceTag = document.querySelector(".price");
+const stockStatus = document.getElementById("stockStatus");
+
+function showFlavorPrompt(){
+flavorGrid.innerHTML = "<div class=\"flavor-option\" aria-disabled=\"true\" tabindex=\"-1\" style=\"opacity:.75;cursor:default;pointer-events:none;\">Select a model to view available flavors</div>";
+}
+
+function updateStockUI(stock){
+if(stock){
+stockStatus.textContent="Available In Store";
+stockStatus.className="stock-status in-stock";
+}else{
+stockStatus.textContent="Currently Unavailable";
+stockStatus.className="stock-status out-stock";
+}
+}
+
+function loadModel(model){
+
+flavorGrid.innerHTML="";
+
+const variants = productData[model].variants;
+
+Object.keys(variants).forEach((variant)=>{
+
+const div = document.createElement("div");
+div.classList.add("flavor-option");
+div.textContent = variant;
+
+div.addEventListener("click",()=>{
+
+document.querySelectorAll("#flavorGrid .flavor-option")
+.forEach(v=>v.classList.remove("active"));
+
+div.classList.add("active");
+
+mainImage.src = variants[variant].img;
+priceTag.textContent = "$"+variants[variant].price.toFixed(2);
+updateStockUI(variants[variant].stock);
+
+});
+
+flavorGrid.appendChild(div);
+
+});
+
+}
+
+modelOptions.forEach(option=>{
+option.addEventListener("click",()=>{
+modelOptions.forEach(o=>o.classList.remove("active"));
+option.classList.add("active");
+loadModel(option.dataset.model);
+});
+});
+showFlavorPrompt();
+</script>
+<script src="../Pages/mobnav.js?v=20260323g"></script>
+</body>
+</html>

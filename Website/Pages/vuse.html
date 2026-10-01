@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VUSE Pod System | Amazon Bazar</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../CSS/zyn.css">
+<link rel="stylesheet" href="../CSS/shared-styles.css">
+<link rel="stylesheet" href="../CSS/mobileresponsive.css">
+</head>
+
+<body>
+
+<nav>
+<div class="logo">
+<a href="../index.html">
+<img src="../Images/logo.webp" alt="Logo" loading="lazy" decoding="async">
+</a>
+</div>
+
+<div class="nav-links">
+
+<!-- Disposable Dropdown -->
+<div class="dropdown">
+<a href="Disposable-Vapes.html">Disposable Vapes ?</a>
+<div class="dropdown-menu">
+<a href="GKP.html">Geek Bar</a>
+<a href="foger.html">Foger</a>
+<a href="podsalt.html">Pod Salt</a>
+<a href="tyson.html">Tyson</a>
+<a href="oxbar.html">Oxbar</a>
+<a href="upends.html">Upends</a>
+<a href="yovo.html">Yovo</a>
+<a href="raz.html">Raz</a>
+<a href="airis.html">Airis</a>
+</div>
+</div>
+
+<!-- Pod System Dropdown -->
+<div class="dropdown">
+<a href="Pod-systems.html" class="active">Pod System ?</a>
+<div class="dropdown-menu">
+<a href="Pod-systems.html#vuse">VUSE</a>
+<a href="Pod-systems.html#juul">JUUL</a>
+</div>
+</div>
+
+<!-- Nicotine Dropdown -->
+<div class="dropdown">
+<a href="Nicotine-Pouches.html">Nicotine Pouches ?</a>
+<div class="dropdown-menu">
+<a href="Nicotine-Pouches.html#zyn">ZYN</a>
+<a href="Nicotine-Pouches.html#sesh">Sesh+</a>
+<a href="Nicotine-Pouches.html#skoal">Skoal</a>
+</div>
+</div>
+
+<a href="Cig.html">Cigarettes</a>
+<a href="Accessories.html">Hookahs</a>
+<a href="Cigar.html">Cigars</a>
+<a href="Accessories.html">Hookahs and Accessories</a>
+
+</div>
+</nav>
+
+
+<section class="product-wrapper">
+
+<div class="product-image">
+<img id="mainProductImage" src="../Images/Pod System/Vuse Alto device.webp" alt="VUSE Device" loading="eager" decoding="async" fetchpriority="high">
+</div>
+
+<div class="product-info">
+<h1>VUSE Pod System</h1>
+
+<div class="price">$24.99</div>
+
+<div class="stock-status in-stock" id="stockStatus">Available In Store</div>
+
+<p class="short-desc">
+            Reliable pod-system performance with balanced draw, clean flavor output, and practical everyday convenience.
+        </p>
+
+<div class="flavor-section">
+<h3>Select VUSE Option</h3>
+
+<div class="flavor-grid">
+<div class="flavor-option active" data-img="../Images/Pod System/Vuse Alto device.webp">Vuse Alto Device</div>
+<div class="flavor-option" data-img="../Images/Pod System/vuse classic tobbaco 5.0%25 nicotine 4alto pods.webp">Classic Tobacco 5.0% (4 Pods)</div>
+<div class="flavor-option" data-img="../Images/Pod System/vuse menthol 2.4%25 nicotine 4 alto pods.webp">Menthol 2.4% (4 Pods)</div>
+<div class="flavor-option" data-img="../Images/Pod System/vuse menthol 5.0%25 nicotine 2 alto pods.webp">Menthol 5.0% (2 Pods)</div>
+<div class="flavor-option" data-img="../Images/Pod System/vuse menthol 5.0%25 nicotine 4 alto pods.webp">Menthol 5.0% (4 Pods)</div>
+<div class="flavor-option" data-img="../Images/Pod System/Vuse Originals Rich Tobacco.webp">Originals Rich Tobacco</div>
+</div>
+</div>
+
+<a href="tel:+18608482345" class="availability-btn">Check Availability</a>
+
+</div>
+</section>
+
+
+<section class="description">
+    <h2>Product Overview</h2>
+    <ul>
+        <li>Designed for smooth pod-based performance with predictable output.</li>
+        <li>Compatible options focus on balanced throat hit and flavor clarity.</li>
+        <li>Compact form factor supports discreet and convenient daily use.</li>
+        <li>Simple setup process helps minimize learning curve for new users.</li>
+        <li>Clear in-store pricing improves decision-making at purchase time.</li>
+        <li>Availability support is provided directly through our call line.</li>
+    </ul>
+</section>
+
+<div class="smoke"></div>
+<a href="tel:+18608482345" class="call-btn">Call Now</a>
+
+<div class="page-footer">
+<a href="Pod-systems.html" class="direction-button back-home-link">Back to Pod Systems</a>
+</div>
+
+
+<script>
+const flavorOptions = document.querySelectorAll(".flavor-option");
+const mainImage = document.getElementById("mainProductImage");
+const stockStatus = document.getElementById("stockStatus");
+
+function updateStockUI(isAvailable) {
+if(isAvailable) {
+stockStatus.textContent = "Available In Store";
+stockStatus.className = "stock-status in-stock";
+} else {
+stockStatus.textContent = "Currently Unavailable";
+stockStatus.className = "stock-status out-stock";
+}
+}
+
+// Flavor Change
+flavorOptions.forEach(option => {
+option.addEventListener("click", () => {
+
+flavorOptions.forEach(o => o.classList.remove("active"));
+option.classList.add("active");
+
+const newImage = option.getAttribute("data-img");
+
+if(newImage){
+mainImage.style.opacity = "0";
+setTimeout(() => {
+mainImage.src = newImage;
+mainImage.style.opacity = "1";
+},150);
+}
+
+updateStockUI(true);
+});
+});
+
+window.onload = () => {
+if(flavorOptions.length > 0){
+flavorOptions[0].click();
+}
+};
+</script>
+<script src="../Pages/mobnav.js?v=20260323g"></script>
+</body>
+</html>
